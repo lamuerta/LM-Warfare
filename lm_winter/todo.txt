@@ -1,0 +1,1 @@
+repasser en PBO "écrémés", contenant juste le nécessaire mais non renommés, pour débugger les textures appliquées direct sur les P3D

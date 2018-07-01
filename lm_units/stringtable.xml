@@ -1,0 +1,434 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Project name="LM Warfare - LM units">
+	<Package name="Editor Subcategories">
+		<Key ID="STR_subcat_baseunits">
+			<Original>Mediterranean units (AOR1)</Original>
+			<English>Mediterranean units (AOR1)</English>
+			<French>Unités méditerranéennes (AOR1)</French>
+		</Key>
+		<Key ID="STR_subcat_tropicunits">
+			<Original>Tropical units (MCT)</Original>
+			<English>Tropical units (MCT)</English>
+			<French>Unités tropicales (MCT)</French>
+		</Key>
+		<Key ID="STR_subcat_Specunits">
+			<Original>Specific slots</Original>
+			<English>Specific slots</English>
+			<French>Slots spéciaux</French>
+		</Key>
+		<Key ID="STR_subcat_armored">
+			<Original>Medium and heavy armor</Original>
+			<English>Medium and heavy armor</English>
+			<French>Blindés moyens et lourds</French>
+		</Key>
+		<Key ID="STR_subcat_helilight">
+			<Original>Medium and light choppers</Original>
+			<English>Medium and light choppers</English>
+			<French>Hélicoptères de petit et moyen tonnage</French>
+		</Key>
+		<Key ID="STR_subcat_heliheavy">
+			<Original>Heavy choppers</Original>
+			<English>Heavy choppers</English>
+			<French>Hélicoptères lourds</French>
+		</Key>
+		<Key ID="STR_subcat_planes">
+			<Original>Planes</Original>
+			<English>Planes</English>
+			<French>Avions</French>
+		</Key>
+		<Key ID="STR_subcat_mrap">
+			<Original>MRAP vehicles</Original>
+			<English>MRAP vehicles</English>
+			<French>Véhicules MRAP</French>
+		</Key>
+		<Key ID="STR_subcat_trucks">
+			<Original>Trucks</Original>
+			<English>Trucks</English>
+			<French>Camions</French>
+		</Key>
+		<Key ID="STR_subcat_medevac">
+			<Original>Medical vehicles</Original>
+			<English>Medical vehicles</English>
+			<French>Véhicules médicalisés</French>
+		</Key>
+		<Key ID="STR_subcat_pods">
+			<Original>Chopper's pods</Original>
+			<English>Chopper's pods</English>
+			<French>Pods hélitreuillés</French>
+		</Key>
+		<Key ID="STR_subcat_cars">
+			<Original>Cars</Original>
+			<English>Cars</English>
+			<French>Voitures</French>
+		</Key>
+		<Key ID="STR_subcat_drones">
+			<Original>Drones</Original>
+			<English>Drones</English>
+			<French>Drones</French>
+		</Key>
+	</Package>
+	<Package name="Faction Classes">
+		<Key ID="STR_factionclasses_lamuerta">
+			<Original>La Muerta</Original>
+			<English>La Muerta</English>
+			<French>La Muerta</French>
+		</Key>
+	</Package>
+	
+	<Package name="Groups">
+		<Container name="Infantry">
+			<Key ID="STR_lmgroups_infantry_base">
+				<Original>Infantry (Mediterranean)</Original>
+				<English>Infantry (Mediterranean)</English>
+				<French>Infanterie (Méditerranéenne)</French>
+			</Key>
+			<Key ID="STR_lmgroups_infantry_forest">
+				<Original>Infantry (Tropical)</Original>
+				<English>Infantry (Tropical)</English>
+				<French>Infanterie (Tropicale)</French>
+			</Key>
+			<Key ID="STR_lmgroups_combatgroup">
+				<Original>Combat group</Original>
+				<English>Combat group</English>
+				<French>Groupe de combat</French>
+			</Key>
+			<Key ID="STR_lmgroups_supportgroup_aa">
+				<Original>Support group (AA)</Original>
+				<English>Support group (AA)</English>
+				<French>Groupe d'appui (AA)</French>
+			</Key>
+			<Key ID="STR_lmgroups_supportgroup_ac">
+				<Original>Support group (AC)</Original>
+				<English>Support group (AC)</English>
+				<French>Groupe d'appui (AC)</French>
+			</Key>
+			<Key ID="STR_lmgroups_logisticsgroup">
+				<Original>Logistics group</Original>
+				<English>Logistics group</English>
+				<French>Groupe logistique</French>
+			</Key>
+			<Key ID="STR_lmgroups_medicalgroup">
+				<Original>Medical group</Original>
+				<English>Medical group</English>
+				<French>Groupe médical</French>
+			</Key>
+			<Key ID="STR_lmgroups_heligroup">
+				<Original>Helicopter pilots</Original>
+				<English>Helicopter pilots</English>
+				<French>Pilotes d'hélicoptère</French>
+			</Key>
+			<Key ID="STR_lmgroups_patrol">
+				<Original>Patrol</Original>
+				<English>Patrol</English>
+				<French>Patrouille</French>
+			</Key>
+			<Key ID="STR_lmgroups_sentries">
+				<Original>Sentries</Original>
+				<English>Sentries</English>
+				<French>Sentinelles</French>
+			</Key>
+		</Container>
+	</Package>
+	
+	<Package name="Altis units">
+		<Key ID="STR_altisunits_mk6mortar">
+			<Original>Mk6 mortar (Mediterranean)</Original>
+			<English>Mk6 mortar (Mediterranean)</English>
+			<French>Mortier Mk6 (Méditerranéen)</French>
+		</Key>
+		<Key ID="STR_altisunits_mk6bipod">
+			<Original>Bipod for Mk6 mortar (Mediterranean)</Original>
+			<English>Bipod for Mk6 mortar (Mediterranean)</English>
+			<French>Bipied pour mortier Mk6 (Méditerranéen)</French>
+		</Key>
+		<Key ID="STR_altisunits_mk6tube">
+			<Original>Tube for Mk6 mortar (Mediterranean)</Original>
+			<English>Tube for Mk6 mortar (Mediterranean)</English>
+			<French>Tube pour mortier Mk6 (Méditerranéen)</French>
+		</Key>
+		<Key ID="STR_altisunits_geniebackpack">
+			<Original>Engineer backpack</Original>
+			<English>Engineer backpack</English>
+			<French>Paquetage d'ingénieur</French>
+		</Key>
+		<Key ID="STR_altisunits_doctorbackpack">
+			<Original>Doctor backpack (Mediterranean)</Original>
+			<English>Doctor backpack (Mediterranean)</English>
+			<French>Paquetage de médecin (Méditerranéen)</French>
+		</Key>
+		<Key ID="STR_altisunits_medicbackpack">
+			<Original>Medic backpack (Mediterranean)</Original>
+			<English>Medic backpack (Mediterranean)</English>
+			<French>Paquetage d'infirmier (Méditerranéen)</French>
+		</Key>
+		<Key ID="STR_altisunits_demobackpack">
+			<Original>Demolisher backpack (Mediterranean)</Original>
+			<English>Demolisher backpack (Mediterranean)</English>
+			<French>Paquetage de démolisseur (Méditerranéen)</French>
+		</Key>
+	</Package>
+	
+	<Package name="Tanoa units">
+		<Key ID="STR_tropicunits_mk6mortar">
+			<Original>Mk6 mortar (Tropical)</Original>
+			<English>Mk6 mortar (Tropical)</English>
+			<French>Mortier Mk6 (Tropical)</French>
+		</Key>
+		<Key ID="STR_tropicunits_mk6bipod">
+			<Original>Bipod for Mk6 mortar (Tropical)</Original>
+			<English>Bipod for Mk6 mortar (Tropical)</English>
+			<French>Bipied pour mortier Mk6 (Tropical)</French>
+		</Key>
+		<Key ID="STR_tropicunits_mk6tube">
+			<Original>Tube for Mk6 mortar (Tropical)</Original>
+			<English>Tube for Mk6 mortar (Tropical)</English>
+			<French>Tube pour mortier Mk6 (Tropical)</French>
+		</Key>
+		<Key ID="STR_tropicunits_geniebackpack">
+			<Original>Engineer backpack</Original>
+			<English>Engineer backpack</English>
+			<French>Paquetage d'ingénieur</French>
+		</Key>
+		<Key ID="STR_tropicunits_medicbackpack">
+			<Original>Medic backpack (Tropical)</Original>
+			<English>Medic backpack (Tropical)</English>
+			<French>Paquetage d'infirmier (Tropical)</French>
+		</Key>
+		<Key ID="STR_tropicunits_doctorbackpack">
+			<Original>Doctor backpack (Tropical)</Original>
+			<English>Doctor backpack (Tropical)</English>
+			<French>Paquetage de médecin (Tropical)</French>
+		</Key>
+		<Key ID="STR_tropicunits_demobackpack">
+			<Original>Demolisher backpack (Tropical)</Original>
+			<English>Demolisher backpack (Tropical)</English>
+			<French>Paquetage de démolisseur (Tropical)</French>
+		</Key>
+	</Package>
+	
+	<Package name="Actions">
+		<Key ID="STR_actions_assemble">
+			<Original>Assemble Mk6 mortar</Original>
+			<English>Assemble Mk6 mortar</English>
+			<French>Monter mortier Mk6</French>
+		</Key>
+	</Package>
+	
+	<Package name="Units">
+		<Key ID="STR_units_officier">
+			<Original>Officer</Original>
+			<English>Officer</English>
+			<French>Officier</French>
+		</Key>
+		<Key ID="STR_units_rifleman">
+			<Original>Rifleman</Original>
+			<English>Rifleman</English>
+			<French>Fusilier</French>
+		</Key>
+		<Key ID="STR_units_grenadier">
+			<Original>Grenadier</Original>
+			<English>Grenadier</English>
+			<French>Grenadier</French>
+		</Key>
+		<Key ID="STR_units_atrifleman">
+			<Original>AT rifleman</Original>
+			<English>AT rifleman</English>
+			<French>Fusilier AC</French>
+		</Key>
+		<Key ID="STR_units_demolisher">
+			<Original>Demolisher</Original>
+			<English>Demolisher</English>
+			<French>Démolisseur</French>
+		</Key>
+		<Key ID="STR_units_autorifleman">
+			<Original>Autorifleman</Original>
+			<English>Autorifleman</English>
+			<French>Mitrailleur</French>
+		</Key>
+		<Key ID="STR_units_heavyautorifleman">
+			<Original>Heavy autorifleman</Original>
+			<English>Heavy autorifleman</English>
+			<French>Artilleur</French>
+		</Key>
+		<Key ID="STR_units_marksman">
+			<Original>Marksman</Original>
+			<English>Marksman</English>
+			<French>Tireur de précision</French>
+		</Key>
+		<Key ID="STR_units_teamleader_gl">
+			<Original>Team leader (Assault)</Original>
+			<English>Team leader (Assault)</English>
+			<French>Team leader (Assaut)</French>
+		</Key>
+		<Key ID="STR_units_teamleader_radio">
+			<Original>Team leader (Support)</Original>
+			<English>Team leader (Support)</English>
+			<French>Team leader (Appui)</French>
+		</Key>
+		<Key ID="STR_units_squadleader">
+			<Original>Squad leader</Original>
+			<English>Squad leader</English>
+			<French>Squad leader</French>
+		</Key>
+		<Key ID="STR_units_acspecialist">
+			<Original>AT Specialist</Original>
+			<English>AT Specialist</English>
+			<French>Spécialiste AC</French>
+		</Key>
+		<Key ID="STR_units_aaspecialist">
+			<Original>AA Specialist</Original>
+			<English>AA Specialist</English>
+			<French>Spécialiste AA</French>
+		</Key>
+		<Key ID="STR_units_porteur_ac">
+			<Original>AC Missiles Carrier</Original>
+			<English>AC Missiles Carrier</English>
+			<French>Porteur de missiles AC</French>
+		</Key>
+		<Key ID="STR_units_porteur_aa">
+			<Original>AA Missiles Carrier</Original>
+			<English>AA Missiles Carrier</English>
+			<French>Porteur de missiles AA</French>
+		</Key>
+		<Key ID="STR_units_medic">
+			<Original>Medic</Original>
+			<English>Medic</English>
+			<French>Infirmier</French>
+		</Key>
+		<Key ID="STR_units_docteur">
+			<Original>Doctor</Original>
+			<English>Doctor</English>
+			<French>Docteur</French>
+		</Key>
+		<Key ID="STR_units_radiooperator">
+			<Original>Radio operator</Original>
+			<English>Radio operator</English>
+			<French>Opérateur radio</French>
+		</Key>
+		<Key ID="STR_units_droneoperator">
+			<Original>Drone operator</Original>
+			<English>Drone operator</English>
+			<French>Opérateur drone</French>
+		</Key>
+		<Key ID="STR_units_mk6gunner">
+			<Original>Mk6 operator - Gunner</Original>
+			<English>Mk6 operator - Gunner</English>
+			<French>Opérateur Mk6 - Tireur</French>
+		</Key>
+		<Key ID="STR_units_mk6assistant">
+			<Original>Mk6 operator - Assistant</Original>
+			<English>Mk6 operator - Assistant</English>
+			<French>Opérateur Mk6 - Assistant</French>
+		</Key>
+		<Key ID="STR_units_ingenieur">
+			<Original>Engineer</Original>
+			<English>Engineer</English>
+			<French>Ingénieur</French>
+		</Key>
+		<Key ID="STR_units_jtacao">
+			<Original>Operator JTAC/AO</Original>
+			<English>Operator JTAC/AO</English>
+			<French>Opérateur JTAC/AO</French>
+		</Key>
+	</Package>
+	
+	<Package name="Specific slots">
+		<Key ID="STR_specific_helipilot">
+			<Original>Helicopter pilot</Original>
+			<English>Helicopter pilot</English>
+			<French>Pilote d'hélicoptère</French>
+		</Key>
+		<Key ID="STR_specific_pilot">
+			<Original>Plane pilot</Original>
+			<English>Plane pilot</English>
+			<French>Pilote d'avion</French>
+		</Key>
+		<Key ID="STR_specific_armordriver">
+			<Original>Armor driver</Original>
+			<English>Armor driver</English>
+			<French>Conducteur de blindé</French>
+		</Key>
+		<Key ID="STR_specific_spotter">
+			<Original>Spotter</Original>
+			<English>Spotter</English>
+			<French>Repéreur</French>
+		</Key>
+		<Key ID="STR_specific_sniper">
+			<Original>Sniper</Original>
+			<English>Sniper</English>
+			<French>Tireur d'élite</French>
+		</Key>
+	</Package>
+	
+	
+	<Package name="Objets">
+		<Key ID="STR_magazines_M69">
+			<Original>M69</Original>
+			<English>M69</English>
+			<French>M69</French>
+		</Key>
+		<Key ID="STR_magazines_M69_descshort">
+			<Original>M69 training grenade</Original>
+			<English>M69 training grenade</English>
+			<French>Grenade M69 d'exercice</French>
+		</Key>
+		<Key ID="STR_beret_officier">
+			<Original>Officer beret</Original>
+			<English>Officer beret</English>
+			<French>Béret d'officier</French>
+		</Key>
+	</Package>
+	
+	<Package name="Bags">
+		<Key ID="STR_bags_heavymedpack">
+			<Original>Heavy medic backpack</Original>
+			<English>Heavy medic backpack</English>
+			<French>Sac lourd de secouriste</French>
+		</Key>
+		<Key ID="STR_bags_uavbackpackbase">
+			<Original>Darter bag (Mediterranean)</Original>
+			<English>Darter bag (Mediterranean)</English>
+			<French>Sac Darter (Méditerranéen)</French>
+		</Key>
+		<Key ID="STR_bags_uavbackpackforest">
+			<Original>Darter bag (Tropic)</Original>
+			<English>Darter bag (Tropic)</English>
+			<French>Sac Darter (Tropical)</French>
+		</Key>
+		<Key ID="STR_bags_darter">
+			<Original>Darter</Original>
+			<English>Darter</English>
+			<French>Darter</French>
+		</Key>
+		<Key ID="STR_bags_carryallbase">
+			<Original>CarryAll (Mediterranean)</Original>
+			<English>CarryAll (Mediterranean)</English>
+			<French>Sac multifonction (Méditerranéen)</French>
+		</Key>
+		<Key ID="STR_bags_carryallforest">
+			<Original>CarryAll (Tropic)</Original>
+			<English>CarryAll (Tropic)</English>
+			<French>Sac multifonction (Tropical)</French>
+		</Key>
+		<Key ID="STR_bags_wallybase">
+			<Original>Wally (Mediterranean)</Original>
+			<English>Wally (Mediterranean)</English>
+			<French>Wally (Méditerranéen)</French>
+		</Key>
+		<Key ID="STR_bags_wallyforest">
+			<Original>Wally (Tropic)</Original>
+			<English>Wally (Tropic)</English>
+			<French>Wally (Tropical)</French>
+		</Key>
+		<Key ID="STR_bags_radiobase">
+			<Original>Modulable RT-1523G (Mediterranean)</Original>
+			<English>Modulable RT-1523G (Mediterranean)</English>
+			<French>RT-1523G Modulaire (Méditerranéen)</French>
+		</Key>
+		<Key ID="STR_bags_radioforest">
+			<Original>Modulable RT-1523G (Tropic)</Original>
+			<English>Modulable RT-1523G (Tropic)</English>
+			<French>RT-1523G Modulaire (Tropical)</French>
+		</Key>
+	</Package>
+</Project>

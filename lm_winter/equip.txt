@@ -1,0 +1,8 @@
+
+
+this forceAddUniform "TRYK_U_B_PCUHsW5";
+this addVest "TRYK_V_ArmorVest_Winter";
+this addBackpack "TRYK_Winter_pack";
+this addHeadgear "TRYK_H_woolhat_CW";
+this addGoggles "TRYK_Shemagh_shade_WH";
+

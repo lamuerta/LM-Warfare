@@ -1,0 +1,3 @@
+- Adapter HuntIR à l'ACR : vérifier si la modification de config juste sur ACR_GL est suffisante
+- Inventaire des véhicules
+- Officier KICC

@@ -1,0 +1,366 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Project name="LM Warfare - LM units">
+	<Package name="cfgEditorSubcategories">
+		<Key ID="STR_infanterie">
+			<Original>Infantry</Original>
+			<English>Infantry</English>
+			<French>Infanterie</French>
+		</Key>
+		<Key ID="STR_specfor">
+			<Original>Special forces</Original>
+			<English>Special forces</English>
+			<French>Forces spéciales</French>
+		</Key>
+		<Key ID="STR_parachutistes">
+			<Original>Paratroopers</Original>
+			<English>Paratroopers</English>
+			<French>Parachutistes</French>
+		</Key>
+		<Key ID="STR_pilotes">
+			<Original>Pilots</Original>
+			<English>Pilots</English>
+			<French>Pilotes</French>
+		</Key>
+		<Key ID="STR_equipages">
+			<Original>Vehicle crews</Original>
+			<English>Vehicles crews</English>
+			<French>Equipages de véhicule</French>
+		</Key>
+		<Key ID="STR_snipers">
+			<Original>Snipers</Original>
+			<English>Snipers</English>
+			<French>Tireurs d'élite</French>
+		</Key>
+		<Key ID="STR_helicopteres">
+			<Original>Choppers</Original>
+			<English>Choppers</English>
+			<French>Hélicoptères</French>
+		</Key>
+		<Key ID="STR_camions">
+			<Original>Trucks</Original>
+			<English>Trucks</English>
+			<French>Camions</French>
+		</Key>
+		<Key ID="STR_blindes">
+			<Original>Armored vehicles</Original>
+			<English>Armored vehicles</English>
+			<French>Véhicules blindés</French>
+		</Key>
+		<Key ID="STR_mrap">
+			<Original>MRAP</Original>
+			<English>MRAP</English>
+			<French>MRAP</French>
+		</Key>
+		<Key ID="STR_offroads">
+			<Original>Offroads</Original>
+			<English>Offroads</English>
+			<French>Véhicules tout-terrain</French>
+		</Key>
+		<Key ID="STR_avions">
+			<Original>Planes</Original>
+			<English>Planes</English>
+			<French>Avions</French>
+		</Key>
+	</Package>
+	
+	<Package name="CfgVehicles">
+		<Key ID="STR_carryall_ammo">
+			<Original>Ammo carrier backpack</Original>
+			<English>Ammo carrier backpack</English>
+			<French>Sac de munitions</French>
+		</Key>
+		<Key ID="STR_radio_backpack">
+			<Original>LR Radio MR3000</Original>
+			<English>LR Radio MR3000</English>
+			<French>Radio LR MR3000</French>
+		</Key>
+		<Key ID="STR_carryall_ac">
+			<Original>AT carrier backpack</Original>
+			<English>AT carrier backpack</English>
+			<French>Sac de missiles AC</French>
+		</Key>
+		<Key ID="STR_kitbag_demo">
+			<Original>Demolisher backpack</Original>
+			<English>Demolisher backpack</English>
+			<French>Sac de démolisseur</French>
+		</Key>
+		<Key ID="STR_kitbag_medic">
+			<Original>Medic backpack</Original>
+			<English>Medic backpack</English>
+			<French>Sac de médecin</French>
+		</Key>
+		<Key ID="STR_fusilier">
+			<Original>Rifleman</Original>
+			<English>Rifleman</English>
+			<French>Fusilier</French>
+		</Key>
+		<Key ID="STR_mitrailleur">
+			<Original>Autorifleman</Original>
+			<English>Autorifleman</English>
+			<French>Mitrailleur</French>
+		</Key>
+		<Key ID="STR_artilleur">
+			<Original>Machinegunner</Original>
+			<English>Machinegunner</English>
+			<French>Artilleur</French>
+		</Key>
+		<Key ID="STR_teamleader">
+			<Original>Team leader</Original>
+			<English>Team leader</English>
+			<French>Team leader</French>
+		</Key>
+		<Key ID="STR_squadleader">
+			<Original>Squad leader</Original>
+			<English>Squad leader</English>
+			<French>Squad leader</French>
+		</Key>
+		<Key ID="STR_specialiste_ac">
+			<Original>AT specialist</Original>
+			<English>AT specialist</English>
+			<French>Spécialiste AC</French>
+		</Key>
+		<Key ID="STR_specialiste_aa">
+			<Original>AA specialist</Original>
+			<English>AA specialist</English>
+			<French>Spécialiste AA</French>
+		</Key>
+		<Key ID="STR_specialiste_explo">
+			<Original>Explosives specialist</Original>
+			<English>Explosives specialist</English>
+			<French>Spécialiste explosifs</French>
+		</Key>
+		<Key ID="STR_medic">
+			<Original>Medic</Original>
+			<English>Medic</English>
+			<French>Infirmier</French>
+		</Key>
+		<Key ID="STR_grenadier">
+			<Original>Grenadier</Original>
+			<English>Grenadier</English>
+			<French>Grenadier</French>
+		</Key>
+		<Key ID="STR_fusilier_ac">
+			<Original>AT rifleman</Original>
+			<English>AT rifleman</English>
+			<French>Fusilier AC</French>
+		</Key>
+		<Key ID="STR_marksman">
+			<Original>Marksman</Original>
+			<English>Marksman</English>
+			<French>Tireur de précision</French>
+		</Key>
+		<Key ID="STR_helipilote">
+			<Original>Helicopter pilot</Original>
+			<English>Helicopter pilot</English>
+			<French>Pilote d'hélicoptère</French>
+		</Key>
+		<Key ID="STR_helicopilote">
+			<Original>Helicopter copilot</Original>
+			<English>Helicopter copilot</English>
+			<French>Copilote d'hélicoptère</French>
+		</Key>
+		<Key ID="STR_pilote">
+			<Original>Plane pilot</Original>
+			<English>Plane pilot</English>
+			<French>Pilote d'avion</French>
+		</Key>
+		<Key ID="STR_equipage">
+			<Original>Vehicle crew member</Original>
+			<English>Vehicle crew member</English>
+			<French>Membre d'équipage de véhicule</French>
+		</Key>
+		<Key ID="STR_parachutiste">
+			<Original>Paratrooper</Original>
+			<English>Paratrooper</English>
+			<French>Parachutiste</French>
+		</Key>
+		<Key ID="STR_officier">
+			<Original>Officer</Original>
+			<English>Officer</English>
+			<French>Officier</French>
+		</Key>
+		<Key ID="STR_sniper">
+			<Original>Sniper</Original>
+			<English>Sniper</English>
+			<French>Tireur d'élite</French>
+		</Key>
+		<Key ID="STR_spotter">
+			<Original>Spotter</Original>
+			<English>Spotter</English>
+			<French>Repéreur</French>
+		</Key>
+		<Key ID="STR_orca">
+			<Original>Orca (unarmed)</Original>
+			<English>Orca (unarmed)</English>
+			<French>Orca (non-armé)</French>
+		</Key>
+		<Key ID="STR_orca_armed">
+			<Original>Orca (armed)</Original>
+			<English>Orca (armed)</English>
+			<French>Orca (armé)</French>
+		</Key>
+		<Key ID="STR_kajman">
+			<Original>Kajman</Original>
+			<English>Kajman</English>
+			<French>Kajman</French>
+		</Key>
+		<Key ID="STR_huron_minigun">
+			<Original>Huron (armed, miniguns)</Original>
+			<English>Huron (armed, miniguns)</English>
+			<French>Huron (armé, miniguns)</French>
+		</Key>
+		<Key ID="STR_huron">
+			<Original>Huron (unarmed)</Original>
+			<English>Huron (unarmed)</English>
+			<French>Huron (non-armé)</French>
+		</Key>
+		<Key ID="STR_tempest">
+			<Original>Tempest</Original>
+			<English>Tempest</English>
+			<French>Tempest</French>
+		</Key>
+		<Key ID="STR_tempest_bache">
+			<Original>Tempest (covered)</Original>
+			<English>Tempest (covered)</English>
+			<French>Tempest (bâché)</French>
+		</Key>
+		<Key ID="STR_tempest_repair">
+			<Original>Tempest (repair)</Original>
+			<English>Tempest (repair)</English>
+			<French>Tempest (mécanique)</French>
+		</Key>
+		<Key ID="STR_tempest_ammo">
+			<Original>Tempest (ammo)</Original>
+			<English>Tempest (ammo)</English>
+			<French>Tempest (munitions)</French>
+		</Key>
+		<Key ID="STR_tempest_medic">
+			<Original>Tempest (medevac)</Original>
+			<English>Tempest (medevac)</English>
+			<French>Tempest (médicalisé)</French>
+		</Key>
+		<Key ID="STR_tempest_fuel">
+			<Original>Tempest (fuel)</Original>
+			<English>Tempest (fuel)</English>
+			<French>Tempest (citerne)</French>
+		</Key>
+		<Key ID="STR_tempest_device">
+			<Original>Tempest (experimental device)</Original>
+			<English>Tempest (experimental device)</English>
+			<French>Tempest (appareil expérimental)</French>
+		</Key>
+		<Key ID="STR_sochor">
+			<Original>Sochor</Original>
+			<English>Sochor</English>
+			<French>Sochor</French>
+		</Key>
+		<Key ID="STR_tigris">
+			<Original>Tigris AA</Original>
+			<English>Tigris AA</English>
+			<French>Tigris AA</French>
+		</Key>
+		<Key ID="STR_gorgon">
+			<Original>Gorgon APC</Original>
+			<English>Gorgon APC</English>
+			<French>Gorgon APC</French>
+		</Key>
+		<Key ID="STR_ifrit">
+			<Original>Ifrit</Original>
+			<English>Ifrit</English>
+			<French>Ifrit</French>
+		</Key>
+		<Key ID="STR_ifrit_gmg">
+			<Original>Ifrit (armed, GMG 40mm)</Original>
+			<English>Ifrit (armed, GMG 40mm)</English>
+			<French>Ifrit (armé, GMG 40mm)</French>
+		</Key>
+		<Key ID="STR_ifrit_hmg">
+			<Original>Ifrit (armed, HMG cal.50)</Original>
+			<English>Ifrit (armed, HMG cal.50)</English>
+			<French>Ifrit (armé, HMG 12.7mm)</French>
+		</Key>
+		<Key ID="STR_offroad">
+			<Original>Offroad</Original>
+			<English>Offroad</English>
+			<French>Tout-terrain</French>
+		</Key>
+		<Key ID="STR_offroad_arme">
+			<Original>Offroad (armed, M2 cal.50)</Original>
+			<English>Offroad (armed, M2 cal.50)</English>
+			<French>Tout-terrain (armé, Browning M2 12.7mm)</French>
+		</Key>
+		<Key ID="STR_t100">
+			<Original>T-100 Black Eagle</Original>
+			<English>T-100 Black Eagle</English>
+			<French>T-100 Black Eagle</French>
+		</Key>
+		<Key ID="STR_buzzard_aa">
+			<Original>L-159 Buzzard (AA)</Original>
+			<English>L-159 Buzzard (AA)</English>
+			<French>L-159 Buzzard (AA)</French>
+		</Key>
+		<Key ID="STR_buzzard_cas">
+			<Original>L-159 Buzzard (CAS)</Original>
+			<English>L-159 Buzzard (CAS)</English>
+			<French>L-159 Buzzard (CAS)</French>
+		</Key>
+	</Package>
+	
+	<Package name="cfgGroups">
+		<Key ID="STR_group_infanterie">
+			<Original>Infantry</Original>
+			<English>Infantry</English>
+			<French>Infanterie</French>
+		</Key>
+		<Key ID="STR_group_combat">
+			<Original>Combat squad</Original>
+			<English>Combat squad</English>
+			<French>Groupe de combat</French>
+		</Key>
+		<Key ID="STR_group_soutien">
+			<Original>Support squad</Original>
+			<English>Support squad</English>
+			<French>Groupe de soutien</French>
+		</Key>
+		<Key ID="STR_group_ac">
+			<Original>AT squad</Original>
+			<English>AT squad</English>
+			<French>Groupe antichar</French>
+		</Key>
+		<Key ID="STR_group_aa">
+			<Original>AA squad</Original>
+			<English>AA squad</English>
+			<French>Groupe antiaérien</French>
+		</Key>
+		<Key ID="STR_group_sentinelles">
+			<Original>Sentries</Original>
+			<English>Sentries</English>
+			<French>Sentinelles</French>
+		</Key>
+		<Key ID="STR_group_snipers">
+			<Original>Sniper squad</Original>
+			<English>Sniper squad</English>
+			<French>Groupe sniper</French>
+		</Key>
+		<Key ID="STR_group_specfor">
+			<Original>Special forces</Original>
+			<English>Special forces</English>
+			<French>Forces spéciales</French>
+		</Key>
+		<Key ID="STR_group_infanterie_meca">
+			<Original>Mechanized infantry</Original>
+			<English>Mechanized infantry</English>
+			<French>Infanterie mécanisée</French>
+		</Key>
+		<Key ID="STR_group_barrage_leger">
+			<Original>Light roadblock</Original>
+			<English>Light roadblock</English>
+			<French>Barrage routier léger</French>
+		</Key>
+		<Key ID="STR_group_equipe_urbaine">
+			<Original>Urban team</Original>
+			<English>Urban team</English>
+			<French>Equipe urbaine</French>
+		</Key>
+	</Package>
+</Project>

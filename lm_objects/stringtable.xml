@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Project name="LM Warfare - Panneaux">
+	<Package name="Panneaux">
+		<Key ID="STR_auteurs">
+			<Original>[LM] Karoucho, [LM] Cheitan</Original>
+			<English>[LM] Karoucho, [LM] Cheitan</English>
+			<French>[LM] Karoucho, [LM] Cheitan</French>
+		</Key>
+		<Key ID="STR_base_gauche">
+			<Original>Sign Base (left)</Original>
+			<English>Sign Base (left)</English>
+			<French>Panneau base (gauche)</French>
+		</Key>
+		<Key ID="STR_base_droite">
+			<Original>Sign Base (right)</Original>
+			<English>Sign Base (right)</English>
+			<French>Panneau base (droite)</French>
+		</Key>
+		<Key ID="STR_frequences">
+			<Original>Frequencies Board</Original>
+			<English>Frequencies Board</English>
+			<French>Tableau des fréquences</French>
+		</Key>
+		<Key ID="STR_gridmap">
+			<Original>Electrical grid map</Original>
+			<English>Electrical grid map</English>
+			<French>Carte de la grille électrique</French>
+		</Key>
+		<Key ID="STR_objets">
+			<Original>LM base signs</Original>
+			<English>LM base signs</English>
+			<French>Panneaux base LM</French>
+		</Key>
+	</Package>
+	<Package name="Cargo nets">
+		<Key ID="STR_cargonet_fuel">
+			<Original>Transportable fuel tanks</Original>
+			<English>Transportable fuel tanks</English>
+			<French>Bidons de carburant transportables</French>
+		</Key>
+		<Key ID="STR_cargonet_ammo">
+			<Original>Transportable ammobox</Original>
+			<English>Transportable ammobox</English>
+			<French>Caisse de munitions transportable</French>
+		</Key>
+	</Package>
+	<Package name="Catégories">
+		<Key ID="STR_edcat_objets">
+			<Original>Various objects ([LM])</Original>
+			<English>Various objects ([LM])</English>
+			<French>Objets divers ([LM])</French>
+		</Key>
+		<Key ID="STR_subcat_panneaux">
+			<Original>Signs</Original>
+			<English>Signs</English>
+			<French>Panneaux</French>
+		</Key>
+		<Key ID="STR_subcat_objets">
+			<Original>Objects</Original>
+			<English>Objects</English>
+			<French>Objets</French>
+		</Key>
+	</Package>
+	<Package name="Actions">
+		<Key ID="STR_actions_rollsleeves">
+			<Original>Roll sleeves</Original>
+			<English>Roll sleeves</English>
+			<French>Remonter les manches</French>
+		</Key>
+		<Key ID="STR_actions_unrollsleeves">
+			<Original>Unroll sleeves</Original>
+			<English>Unroll sleeves</English>
+			<French>Dérouler les manches</French>
+		</Key>
+		<Key ID="STR_actions_tee">
+			<Original>Take off top</Original>
+			<English>Take off top</English>
+			<French>Retirer le haut</French>
+		</Key>
+		<Key ID="STR_actions_untee">
+			<Original>Wear top</Original>
+			<English>Wear top</English>
+			<French>Remettre le haut</French>
+		</Key>
+		<Key ID="STR_actions_mountAFG">
+			<Original>Mount ergonomic grip</Original>
+			<English>Mount ergonomic grip</English>
+			<French>Monter poignée ergonomique</French>
+		</Key>
+		<Key ID="STR_actions_mountVFG">
+			<Original>Mount vertical grip</Original>
+			<English>Mount vertical grip</English>
+			<French>Monter poignée verticale</French>
+		</Key>
+		<Key ID="STR_actions_mountCQB">
+			<Original>Mount short barrel</Original>
+			<English>Mount short barrel</English>
+			<French>Monter canon court</French>
+		</Key>
+		<Key ID="STR_actions_mountSTD">
+			<Original>Mount standard hand-guard</Original>
+			<English>Mount standard hand-guard</English>
+			<French>Monter garde-main standard</French>
+		</Key>
+		<Key ID="STR_actions_mountLNG">
+			<Original>Mount long barrel</Original>
+			<English>Mount long barrel</English>
+			<French>Monter canon standard</French>
+		</Key>
+		<Key ID="STR_actions_mountSND">
+			<Original>Mount stealth barrel</Original>
+			<English>Mount stealth barrel</English>
+			<French>Monter canon furtif</French>
+		</Key>
+		<Key ID="STR_actions_mountGHI">
+			<Original>Mount camo barrel</Original>
+			<English>Mount camo barrel</English>
+			<French>Monter ghillie de canon</French>
+		</Key>
+		<Key ID="STR_actions_mountAWM">
+			<Original>Mount standard barrel</Original>
+			<English>Mount standard barrel</English>
+			<French>Monter canon standard</French>
+		</Key>
+		<Key ID="STR_actions_mountTST">
+			<Original>Mount telescopic stock</Original>
+			<English>Mount telescopic stock</English>
+			<French>Monter crosse téléscopique</French>
+		</Key>
+		<Key ID="STR_actions_mountFST">
+			<Original>Mount full stock</Original>
+			<English>Mount full stock</English>
+			<French>Monter crosse pleine</French>
+		</Key>
+		<Key ID="STR_actions_mountLGL">
+			<Original>Mount light grenade launcher</Original>
+			<English>Mount light grenade launcher</English>
+			<French>Monter lance-grenade léger</French>
+		</Key>
+		<Key ID="STR_actions_mountCST">
+			<Original>Mount custom kit</Original>
+			<English>Mount custom kit</English>
+			<French>Monter kit amélioré</French>
+		</Key>
+		<Key ID="STR_actions_mountIRS">
+			<Original>Mount standard kit</Original>
+			<English>Mount standard kit</English>
+			<French>Monter kit standard</French>
+		</Key>
+	</Package>
+	<Package name="ProgressBar">
+		<Key ID="STR_progress_mountAFG">
+			<Original>Mounting ergonomic grip...</Original>
+			<English>Mounting ergonomic grip...</English>
+			<French>Montage poignée ergonomique...</French>
+		</Key>
+		<Key ID="STR_progress_mountVFG">
+			<Original>Mounting vertical grip...</Original>
+			<English>Mounting vertical grip...</English>
+			<French>Montage poignée verticale...</French>
+		</Key>
+		<Key ID="STR_progress_mountCQB">
+			<Original>Mounting short barrel...</Original>
+			<English>Mounting short barrel...</English>
+			<French>Montage canon court...</French>
+		</Key>
+		<Key ID="STR_progress_mountSTD">
+			<Original>Mounting standard hand-guard...</Original>
+			<English>Mounting standard hand-guard...</English>
+			<French>Montage garde-main standard...</French>
+		</Key>
+		<Key ID="STR_progress_mountLNG">
+			<Original>Mounting long barrel...</Original>
+			<English>Mounting long barrel...</English>
+			<French>Montage canon standard...</French>
+		</Key>
+		<Key ID="STR_progress_mountSND">
+			<Original>Mounting stealth barrel...</Original>
+			<English>Mounting stealth barrel...</English>
+			<French>Montage canon furtif...</French>
+		</Key>
+		<Key ID="STR_progress_mountGHI">
+			<Original>Mounting camo barrel...</Original>
+			<English>Mounting camo barrel...</English>
+			<French>Montage ghillie de canon...</French>
+		</Key>
+		<Key ID="STR_progress_mountAWM">
+			<Original>Mounting standard barrel...</Original>
+			<English>Mounting standard barrel...</English>
+			<French>Montage canon standard...</French>
+		</Key>
+		<Key ID="STR_progress_mountTST">
+			<Original>Mounting telescopic stock...</Original>
+			<English>Mounting telescopic stock...</English>
+			<French>Montage crosse téléscopique...</French>
+		</Key>
+		<Key ID="STR_progress_mountFST">
+			<Original>Mounting full stock...</Original>
+			<English>Mounting full stock...</English>
+			<French>Montage crosse pleine...</French>
+		</Key>
+		<Key ID="STR_progress_mountLGL">
+			<Original>Mounting light grenade launcher...</Original>
+			<English>Mounting light grenade launcher...</English>
+			<French>Montage lance-grenade léger...</French>
+		</Key>
+		<Key ID="STR_progress_mountCST">
+			<Original>Mounting custom kit...</Original>
+			<English>Mounting custom kit...</English>
+			<French>Montage kit amélioré...</French>
+		</Key>
+		<Key ID="STR_progress_mountIRS">
+			<Original>Mounting standard kit...</Original>
+			<English>Mounting standard kit...</English>
+			<French>Montage kit standard...</French>
+		</Key>
+	</Package>
+	<Package name="AceCategories">
+		<Key ID="STR_LM_ace_uniforme">
+			<Original>Uniform</Original>
+			<English>Uniform</English>
+			<French>Uniforme</French>
+		</Key>
+		<Key ID="STR_LM_ace_arme_principale">
+			<Original>Primary weapon</Original>
+			<English>Primary weapon</English>
+			<French>Arme principale</French>
+		</Key>
+	</Package>
+</Project>

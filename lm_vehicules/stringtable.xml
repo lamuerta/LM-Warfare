@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Project name="LM Warfare - LM units">
+	<Package name="Vehicles">
+		<Key ID="STR_greyhawk">
+			<Original>MQ-4A Greyhawk</Original>
+			<English>MQ-4A Greyhawk</English>
+			<French>MQ-4A Greyhawk</French>
+		</Key>
+		<Key ID="STR_hercule">
+			<Original>UGV Hercule</Original>
+			<English>UGV Hercule</English>
+			<French>UGV Hercule</French>
+		</Key>
+		<Key ID="STR_mh6_littlebird">
+			<Original>MH-6 Littlebird</Original>
+			<English>MH-6 Littlebird</English>
+			<French>MH-6 Littlebird</French>
+		</Key>
+		<Key ID="STR_ah6_littlebird">
+			<Original>AH-6 Littlebird</Original>
+			<English>AH-6 Littlebird</English>
+			<French>AH-6 Littlebird</French>
+		</Key>
+		<Key ID="STR_ghosthawk">
+			<Original>UH-80 Ghost Hawk</Original>
+			<English>UH-80 Ghost Hawk</English>
+			<French>UH-80 Ghost Hawk</French>
+		</Key>
+		<Key ID="STR_blackfoot">
+			<Original>RAH-66 Blackfoot</Original>
+			<English>RAH-66 Blackfoot</English>
+			<French>RAH-66 Blackfoot</French>
+		</Key>
+		<Key ID="STR_mohawk">
+			<Original>CH-49 Mohawk</Original>
+			<English>CH-49 Mohawk</English>
+			<French>CH-49 Mohawk</French>
+		</Key>
+		<Key ID="STR_kuma">
+			<Original>MBT-52 Kuma</Original>
+			<English>MBT-52 Kuma</English>
+			<French>MBT-52 Kuma</French>
+		</Key>
+		<Key ID="STR_cheetah">
+			<Original>IFV-6a Cheetah</Original>
+			<English>IFV-6a Cheetah</English>
+			<French>IFV-6a Cheetah</French>
+		</Key>
+		<Key ID="STR_azrael">
+			<Original>TO-199 Azrael</Original>
+			<English>TO-199 Azrael</English>
+			<French>TO-199 Azrael</French>
+		</Key>
+		<Key ID="STR_f18">
+			<Original>F/A-181 Black Wasp II</Original>
+			<English>F/A-181 Black Wasp II</English>
+			<French>F/A-181 Black Wasp II</French>
+		</Key>
+		<Key ID="STR_hunter">
+			<Original>Hunter</Original>
+			<English>Hunter</English>
+			<French>Hunter</French>
+		</Key>
+		<Key ID="STR_hunter_hmg">
+			<Original>Hunter (armed, HMG cal.50)</Original>
+			<English>Hunter (armed, HMG cal.50)</English>
+			<French>Hunter (armé, HMG 12.7mm)</French>
+		</Key>
+		<Key ID="STR_hunter_gmg">
+			<Original>Hunter (armed, GMG 40mm)</Original>
+			<English>Hunter (armed, GMG 40mm)</English>
+			<French>Hunter (armé, GMG 40mm)</French>
+		</Key>
+		<Key ID="STR_hunter_medic">
+			<Original>Hunter (medevac)</Original>
+			<English>Hunter (medevac)</English>
+			<French>Hunter (médicalisé)</French>
+		</Key>
+		<Key ID="STR_prowler_hmg">
+			<Original>Prowler (armed, HMG cal.50)</Original>
+			<English>Prowler (armed, HMG cal.50)</English>
+			<French>Prowler (armé, HMG 12.7mm)</French>
+		</Key>
+		<Key ID="STR_prowler">
+			<Original>Prowler (unarmed)</Original>
+			<English>Prowler (unarmed)</English>
+			<French>Prowler (non-armé)</French>
+		</Key>
+		<Key ID="STR_offroad_altis">
+			<Original>Offroad (Altis)</Original>
+			<English>Offroad (Altis)</English>
+			<French>Tout-terrain (Altis)</French>
+		</Key>
+		<Key ID="STR_zamak_covered">
+			<Original>Zamak (covered)</Original>
+			<English>Zamak (covered)</English>
+			<French>Zamak (couvert)</French>
+		</Key>
+		<Key ID="STR_zamak">
+			<Original>Zamak</Original>
+			<English>Zamak</English>
+			<French>Zamak</French>
+		</Key>
+		<Key ID="STR_zamak_medic">
+			<Original>Zamak (medevac)</Original>
+			<English>Zamak (medevac)</English>
+			<French>Zamak (médicalisé)</French>
+		</Key>
+		<Key ID="STR_zamak_ammo">
+			<Original>Zamak (ammo)</Original>
+			<English>Zamak (ammo)</English>
+			<French>Zamak (munitions)</French>
+		</Key>
+		<Key ID="STR_zamak_repair">
+			<Original>Zamak (repair)</Original>
+			<English>Zamak (repair)</English>
+			<French>Zamak (mécanique)</French>
+		</Key>
+		<Key ID="STR_zamak_fuel">
+			<Original>Zamak (fuel)</Original>
+			<English>Zamak (fuel)</English>
+			<French>Zamak (citerne)</French>
+		</Key>
+		<Key ID="STR_marshall">
+			<Original>IFV Badger</Original>
+			<English>IFV Badger</English>
+			<French>IFV Badger</French>
+		</Key>
+		<Key ID="STR_huron">
+			<Original>Huron</Original>
+			<English>Huron</English>
+			<French>Huron</French>
+		</Key>
+		<Key ID="STR_wrangler">
+			<Original>Jeep Wrangler</Original>
+			<English>Jeep Wrangler</English>
+			<French>Jeep Wrangler</French>
+		</Key>
+		<Key ID="STR_blackfish">
+			<Original>V-44 X Blackfish</Original>
+			<English>V-44 X Blackfish</English>
+			<French>V-44 X Blackfish</French>
+		</Key>
+		<Key ID="STR_blackfish_vehicle">
+			<Original>V-44 X Blackfish (vehicle transport)</Original>
+			<English>V-44 X Blackfish (vehicle transport)</English>
+			<French>V-44 X Blackfish (transport de véhicules)</French>
+		</Key>
+	</Package>
+</Project>

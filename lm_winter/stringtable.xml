@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Project name="LM Winter">
+	<Package name="Uniforme">
+		<Key ID="STR_uniform">
+			<Original>ArcticFit Uniform</Original>
+			<English>ArcticFit Uniform</English>
+			<French>ArcticFit Uniforme</French>
+		</Key>
+		<Key ID="STR_uniform_desc">
+			<Original>An uniform designed for arctical conditions.</Original>
+			<English>An uniform designed for arctical conditions.</English>
+			<French>Un uniforme conçu pour les conditions arctiques.</French>
+		</Key>
+	</Package>
+	<Package name="Vestes">
+		<Key ID="STR_vest_hex">
+			<Original>ArcticFit Vest (geometric design)</Original>
+			<English>ArcticFit Vest (geometric design)</English>
+			<French>ArcticFit Veste (géométrique)</French>
+		</Key>
+		<Key ID="STR_vest_camo">
+			<Original>ArcticFit Vest (pine thorns design)</Original>
+			<English>ArcticFit Vest (pine thorns design)</English>
+			<French>ArcticFit Veste (épines de pin)</French>
+		</Key>
+		<Key ID="STR_vest_desc">
+			<Original>A vest designed for arctical conditions.</Original>
+			<English>A vest designed for arctical conditions.</English>
+			<French>Une veste conçue pour les conditions arctiques.</French>
+		</Key>
+	</Package>
+	<Package name="Shemagh">
+		<Key ID="STR_shemagh_hex">
+			<Original>ArcticFit Shemagh (geometric design)</Original>
+			<English>ArcticFit Shemagh (geometric design)</English>
+			<French>ArcticFit Shemagh (géométrique)</French>
+		</Key>
+		<Key ID="STR_shemagh_camo">
+			<Original>ArcticFit Shemagh (white)</Original>
+			<English>ArcticFit Shemagh (white)</English>
+			<French>ArcticFit Shemagh (blanche)</French>
+		</Key>
+		<Key ID="STR_shemagh_desc">
+			<Original>A shemagh designed for arctical conditions.</Original>
+			<English>A shemagh designed for arctical conditions.</English>
+			<French>Un shemagh conçu pour les conditions arctiques.</French>
+		</Key>
+		<Key ID="STR_balaclava">
+			<Original>ArcticFit Balaclava</Original>
+			<English>ArcticFit Balaclava</English>
+			<French>ArcticFit Balaclava</French>
+		</Key>
+	</Package>
+	<Package name="Bonnet">
+		<Key ID="STR_bonnet_camo">
+			<Original>ArcticFit Watchcap (pine thorns design)</Original>
+			<English>ArcticFit Watchcap (pine thorns design)</English>
+			<French>ArcticFit Bonnet (épines de pin)</French>
+		</Key>
+		<Key ID="STR_bonnet_hex">
+			<Original>ArcticFit Watchcap (geometric design)</Original>
+			<English>ArcticFit Watchcap (geometric design)</English>
+			<French>ArcticFit Bonnet (géométrique)</French>
+		</Key>
+		<Key ID="STR_bonnet_desc">
+			<Original>A watchcap designed for arctical conditions.</Original>
+			<English>A watchcap designed for arctical conditions.</English>
+			<French>Un bonnet conçu pour les conditions arctiques.</French>
+		</Key>
+	</Package>
+	<Package name="Sacs">
+		<Key ID="STR_backpack_camo">
+			<Original>ArcticFit Assault Pack (pine thorns design)</Original>
+			<English>ArcticFit Assault Pack (pine thorns design)</English>
+			<French>ArcticFit Paquetage d'assaut (épines de pin)</French>
+		</Key>
+		<Key ID="STR_backpack_white">
+			<Original>ArcticFit Assault Pack (white)</Original>
+			<English>ArcticFit Assault Pack (white)</English>
+			<French>ArcticFit Paquetage d'assaut (blanc)</French>
+		</Key>
+		<Key ID="STR_carryall_camo">
+			<Original>ArcticFit Carryall (pine thorns design)</Original>
+			<English>ArcticFit Carryall (pine thorns design)</English>
+			<French>ArcticFit Sac multifonction (épines de pin)</French>
+		</Key>
+		<Key ID="STR_carryall_white">
+			<Original>ArcticFit Carryall (white)</Original>
+			<English>ArcticFit Carryall (white)</English>
+			<French>ArcticFit Sac multifonction (blanc)</French>
+		</Key>
+	</Package>
+</Project>
