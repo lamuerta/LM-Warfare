@@ -271,9 +271,9 @@ ace_nametags_tagSize = 2;
 // ACE Nightvision
 force ace_nightvision_aimDownSightsBlur = 0;
 force ace_nightvision_disableNVGsWithSights = false;
-force ace_nightvision_effectScaling = 0.0118831;
+force ace_nightvision_effectScaling = 0;
 force ace_nightvision_fogScaling = 0;
-force ace_nightvision_noiseScaling = 1;
+force ace_nightvision_noiseScaling = 0.1;
 ace_nightvision_shutterEffects = true;
 
 // ACE Outils de navigation
