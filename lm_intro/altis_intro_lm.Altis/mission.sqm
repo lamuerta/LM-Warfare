@@ -12,14 +12,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=365;
+		nextID=367;
 	};
 	class Camera
 	{
-		pos[]={14162.532,22.556063,16246.135};
-		dir[]={0.38760144,-0.45642373,0.80105782};
-		up[]={0.19894153,0.88955516,0.41114131};
-		aside[]={0.90024322,-1.6675403e-006,-0.43561};
+		pos[]={14166.007,21.737051,16251.517};
+		dir[]={0.30735138,-0.1201952,0.94410783};
+		up[]={0.037342254,0.99266022,0.11468893};
+		aside[]={0.95096862,-6.727365e-006,-0.30959943};
 	};
 };
 binarizationWanted=0;
@@ -34,12 +34,12 @@ addons[]=
 	"A3_Structures_F_Items_Electronics",
 	"A3_Structures_F_Items_Stationery",
 	"A3_Data_F_Curator_Intel",
+	"cba_xeh",
 	"A3_Structures_F_Civ_InfoBoards",
 	"acex_sitting",
 	"LM_UNITS",
 	"A3_Weapons_F",
-	"task_force_radio_items",
-	"A3_Characters_F",
+	"tfar_handhelds",
 	"VSM_AOR1_Config",
 	"ace_realisticnames",
 	"ace_attach",
@@ -94,36 +94,35 @@ class AddonsMetaData
 		};
 		class Item6
 		{
+			className="A3_Characters_F";
+			name="Arma 3 Alpha - Characters and Clothing";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
+		class Item7
+		{
 			className="acex_sitting";
 			name="ACEX - Sitting";
 			author="ACE-Team";
 			url="http://ace3mod.com/";
 		};
-		class Item7
+		class Item8
 		{
 			className="LM_UNITS";
 			name="LM_UNITS";
 		};
-		class Item8
+		class Item9
 		{
 			className="A3_Weapons_F";
 			name="Arma 3 Alpha - Weapons and Accessories";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item9
-		{
-			className="task_force_radio_items";
-			name="task_force_radio_items";
-			author="[TF]Nkey";
-			url="https://github.com/michail-nikolaev/task-force-arma-3-radio";
-		};
 		class Item10
 		{
-			className="A3_Characters_F";
-			name="Arma 3 Alpha - Characters and Clothing";
-			author="Bohemia Interactive";
-			url="https://www.arma3.com";
+			className="tfar_handhelds";
+			name="tfar_handhelds";
+			url="https://github.com/michail-nikolaev/task-force-arma-3-radio";
 		};
 		class Item11
 		{
@@ -252,7 +251,6 @@ class Intro
 						angles[]={0,3.556437,0};
 					};
 					side="Empty";
-					flags=4;
 					class Attributes
 					{
 						createAsSimpleObject=1;
@@ -260,7 +258,7 @@ class Intro
 					};
 					id=1471;
 					type="Land_CampingTable_F";
-					atlOffset=0.015144348;
+					atlOffset=0.69213295;
 				};
 				class Item1
 				{
@@ -271,7 +269,6 @@ class Intro
 						angles[]={0.00029062203,1.9629716,6.2825842};
 					};
 					side="Empty";
-					flags=4;
 					class Attributes
 					{
 						createAsSimpleObject=1;
@@ -279,6 +276,7 @@ class Intro
 					};
 					id=1472;
 					type="Land_CampingTable_F";
+					atlOffset=0.67893791;
 				};
 				class Item2
 				{
@@ -296,7 +294,7 @@ class Intro
 					};
 					id=1473;
 					type="Land_CampingTable_F";
-					atlOffset=0.68445587;
+					atlOffset=0.67940712;
 				};
 				class Item3
 				{
@@ -307,6 +305,7 @@ class Intro
 						angles[]={0.00029062203,5.0081182,6.2825842};
 					};
 					side="Empty";
+					flags=4;
 					class Attributes
 					{
 						createAsSimpleObject=1;
@@ -314,7 +313,7 @@ class Intro
 					};
 					id=1474;
 					type="Land_FilePhotos_F";
-					atlOffset=0.81174469;
+					atlOffset=0.00081825256;
 				};
 				class Item4
 				{
@@ -332,15 +331,15 @@ class Intro
 					};
 					id=1475;
 					type="Land_FilePhotos_F";
-					atlOffset=0.80994034;
+					atlOffset=0.72881889;
 				};
 				class Item5
 				{
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={14166.607,21.409595,16252.79};
-						angles[]={0,0.45909566,0};
+						position[]={14166.607,21.409729,16252.79};
+						angles[]={0,0.45909142,0};
 					};
 					side="Empty";
 					flags=4;
@@ -351,6 +350,30 @@ class Intro
 					};
 					id=1476;
 					type="Land_FlatTV_01_F";
+					atlOffset=0.0025920868;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="ObjectTextureCustom0";
+							expression="_this setObjectTextureGlobal [0,_value]";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="ecran.paa";
+								};
+							};
+						};
+						nAttributes=1;
+					};
 				};
 				class Item6
 				{
@@ -361,7 +384,6 @@ class Intro
 						angles[]={0,5.9123678,0};
 					};
 					side="Empty";
-					flags=4;
 					class Attributes
 					{
 						createAsSimpleObject=1;
@@ -369,7 +391,7 @@ class Intro
 					};
 					id=1477;
 					type="Land_HDMICable_01_F";
-					atlOffset=0.0067939758;
+					atlOffset=0.0092525482;
 				};
 				class Item7
 				{
@@ -387,7 +409,7 @@ class Intro
 					};
 					id=1478;
 					type="Land_Map_altis_F";
-					atlOffset=0.81003571;
+					atlOffset=0.72891426;
 				};
 				class Item8
 				{
@@ -401,12 +423,11 @@ class Intro
 					class Attributes
 					{
 						init="this setDamage 1";
-						createAsSimpleObject=1;
 						disableSimulation=1;
 					};
 					id=1479;
 					type="Weapon_srifle_DMR_03_F";
-					atlOffset=0.43528366;
+					atlOffset=0.35416222;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -466,7 +487,7 @@ class Intro
 					};
 					id=1480;
 					type="Land_MobilePhone_smart_F";
-					atlOffset=0.81000328;
+					atlOffset=0.72888184;
 				};
 				class Item10
 				{
@@ -484,7 +505,7 @@ class Intro
 					};
 					id=1481;
 					type="Land_MobilePhone_smart_F";
-					atlOffset=0.0090065002;
+					atlOffset=0.011465073;
 				};
 				class Item11
 				{
@@ -503,6 +524,7 @@ class Intro
 					};
 					id=1482;
 					type="Land_Notepad_F";
+					atlOffset=0.0024585724;
 				};
 				class Item12
 				{
@@ -521,7 +543,7 @@ class Intro
 					};
 					id=1483;
 					type="Land_PCSet_01_mouse_F";
-					atlOffset=0.0065364838;
+					atlOffset=0.0089950562;
 				};
 				class Item13
 				{
@@ -539,7 +561,7 @@ class Intro
 					};
 					id=1484;
 					type="Land_PenRed_F";
-					atlOffset=0.81015587;
+					atlOffset=0.72903442;
 				};
 				class Item14
 				{
@@ -550,6 +572,7 @@ class Intro
 						angles[]={0.00029062203,4.7565341,6.2825842};
 					};
 					side="Empty";
+					flags=4;
 					class Attributes
 					{
 						createAsSimpleObject=1;
@@ -557,7 +580,7 @@ class Intro
 					};
 					id=1485;
 					type="Land_Photos_V1_F";
-					atlOffset=0.81149101;
+					atlOffset=0.00060462952;
 				};
 				class Item15
 				{
@@ -575,7 +598,7 @@ class Intro
 					};
 					id=1486;
 					type="Land_Photos_V4_F";
-					atlOffset=0.81182289;
+					atlOffset=0.0011234283;
 				};
 				class Item16
 				{
@@ -586,6 +609,7 @@ class Intro
 						angles[]={0,1.6076512,0};
 					};
 					side="Empty";
+					flags=4;
 					class Attributes
 					{
 						createAsSimpleObject=1;
@@ -593,7 +617,7 @@ class Intro
 					};
 					id=1487;
 					type="Land_PortableLongRangeRadio_F";
-					atlOffset=0.80976486;
+					atlOffset=4.5776367e-005;
 				};
 				class Item17
 				{
@@ -604,6 +628,7 @@ class Intro
 						angles[]={0,1.959308,0};
 					};
 					side="Empty";
+					flags=4;
 					class Attributes
 					{
 						createAsSimpleObject=1;
@@ -611,7 +636,7 @@ class Intro
 					};
 					id=1488;
 					type="Land_PortableLongRangeRadio_F";
-					atlOffset=0.80981255;
+					atlOffset=6.6757202e-005;
 				};
 				class Item18
 				{
@@ -629,7 +654,7 @@ class Intro
 					};
 					id=1489;
 					type="Land_SatellitePhone_F";
-					atlOffset=0.80981445;
+					atlOffset=0.72869301;
 				};
 				class Item19
 				{
@@ -640,14 +665,14 @@ class Intro
 						angles[]={0.00029062203,5.889986,6.2825842};
 					};
 					side="Empty";
+					flags=4;
 					class Attributes
 					{
-						createAsSimpleObject=1;
 						disableSimulation=1;
 					};
 					id=1490;
 					type="Intel_File2_F";
-					atlOffset=0.81154251;
+					atlOffset=0.00092506409;
 				};
 				class Item20
 				{
@@ -658,7 +683,6 @@ class Intro
 						angles[]={0,0.9749195,0};
 					};
 					side="Empty";
-					flags=4;
 					class Attributes
 					{
 						createAsSimpleObject=1;
@@ -666,7 +690,7 @@ class Intro
 					};
 					id=1491;
 					type="MapBoard_altis_F";
-					atlOffset=0.032461166;
+					atlOffset=0.71214676;
 				};
 				class Item21
 				{
@@ -677,7 +701,6 @@ class Intro
 						angles[]={0,4.96912,0};
 					};
 					side="Empty";
-					flags=4;
 					class Attributes
 					{
 						createAsSimpleObject=1;
@@ -685,7 +708,7 @@ class Intro
 					};
 					id=1492;
 					type="MapBoard_altis_F";
-					atlOffset=0.022665024;
+					atlOffset=0.71109962;
 				};
 				class Item22
 				{
@@ -696,7 +719,6 @@ class Intro
 						angles[]={0,5.3096957,0};
 					};
 					side="Empty";
-					flags=4;
 					class Attributes
 					{
 						createAsSimpleObject=1;
@@ -704,7 +726,7 @@ class Intro
 					};
 					id=1493;
 					type="MapBoard_stratis_F";
-					atlOffset=0.024620056;
+					atlOffset=0.71058083;
 				};
 				class Item23
 				{
@@ -715,7 +737,6 @@ class Intro
 						angles[]={0,3.6407444,0};
 					};
 					side="Empty";
-					flags=4;
 					class Attributes
 					{
 						createAsSimpleObject=1;
@@ -723,11 +744,11 @@ class Intro
 					};
 					id=1494;
 					type="Land_CampingChair_V2_F";
-					atlOffset=0.014007568;
+					atlOffset=0.69705391;
 				};
 			};
 			id=1470;
-			atlOffset=0.068695068;
+			atlOffset=0.75336838;
 		};
 		class Item1
 		{
@@ -745,19 +766,21 @@ class Intro
 						angles[]={0,1.1732101,0};
 					};
 					side="West";
-					flags=7;
+					flags=3;
 					class Attributes
 					{
 						isPlayer=1;
 					};
 					id=1496;
 					type="LM_BASE_FUSILIER";
+					atlOffset=0.47904396;
 				};
 			};
 			class Attributes
 			{
 			};
 			id=1495;
+			atlOffset=0.47904396;
 		};
 		class Item2
 		{
@@ -831,8 +854,7 @@ class Intro
 							map="ItemMap";
 							compass="ItemCompass";
 							watch="tf_microdagr";
-							radio="tf_anprc148jem_1";
-							headgear="H_Beret_Colonel";
+							headgear="LM_BERET_OFFICIER";
 						};
 					};
 					id=1498;
