@@ -272,8 +272,8 @@ class LM_FOREST_OFFICIER : LM_FOREST_MAN
 	respawnWeapons[] = {Throw, Put};
 	items[] = {KSI};
 	respawnItems[] = {KSI};
-	linkedItems[] = {"tf_microdagr", "LM_BERET_OFFICIER", "ItemMap"};
-	respawnLinkedItems[] = {"tf_microdagr", "LM_BERET_OFFICIER", "ItemMap"};
+	linkedItems[] = {"ItemWatch", "LM_BERET_OFFICIER", "ItemMap"};
+	respawnLinkedItems[] = {"ItemWatch", "LM_BERET_OFFICIER", "ItemMap"};
 	magazines[] = {};
 	respawnMagazines[] = {};
 };
@@ -287,8 +287,8 @@ class LM_FOREST_FUSILIER : LM_FOREST_MAN
 	respawnWeapons[] = {SMA_ACRREMAFG, hgun_Rook40_F, Throw, Put};
 	items[] = {KSI};
 	respawnItems[] = {KSI};
-	linkedItems[] = {"VSM_LBT6094_operator_multicamTropic", "VSM_MulticamTropic_OPS_2", "tf_microdagr", "tf_rf7800str"};
-	respawnLinkedItems[] = {"VSM_LBT6094_operator_multicamTropic", "VSM_MulticamTropic_OPS_2", "tf_microdagr", "tf_rf7800str"};
+	linkedItems[] = {"VSM_LBT6094_operator_multicamTropic", "VSM_MulticamTropic_OPS_2", "ItemWatch", "tf_rf7800str"};
+	respawnLinkedItems[] = {"VSM_LBT6094_operator_multicamTropic", "VSM_MulticamTropic_OPS_2", "ItemWatch", "tf_rf7800str"};
 	magazines[] = {STD_mag_load};
 	respawnMagazines[] = {STD_mag_load};
 };
@@ -302,8 +302,8 @@ class LM_FOREST_GRENADIER : LM_FOREST_MAN
 	respawnWeapons[] = {SMA_ACRREMGL, hgun_Rook40_F, Throw, Put};
 	items[] = {KSI};
 	respawnItems[] = {KSI};
-	linkedItems[] = {"VSM_LBT6094_operator_multicamTropic", "VSM_MulticamTropic_OPS_2", "tf_microdagr", "tf_rf7800str"};
-	respawnLinkedItems[] = {"VSM_LBT6094_operator_multicamTropic", "VSM_MulticamTropic_OPS_2", "tf_microdagr", "tf_rf7800str"};
+	linkedItems[] = {"VSM_LBT6094_operator_multicamTropic", "VSM_MulticamTropic_OPS_2", "ItemWatch", "tf_rf7800str"};
+	respawnLinkedItems[] = {"VSM_LBT6094_operator_multicamTropic", "VSM_MulticamTropic_OPS_2", "ItemWatch", "tf_rf7800str"};
 	magazines[] = {STD_mag_load, mag_10("1Rnd_HE_Grenade_shell"), mag_2("1Rnd_SmokeRed_Grenade_shell"), mag_2("1Rnd_SmokeBlue_Grenade_shell"), mag_2("1Rnd_Smoke_Grenade_shell"), "1Rnd_SmokeGreen_Grenade_shell"};
 	respawnMagazines[] = {STD_mag_load, mag_10("1Rnd_HE_Grenade_shell"), mag_2("1Rnd_SmokeRed_Grenade_shell"), mag_2("1Rnd_SmokeBlue_Grenade_shell"), mag_2("1Rnd_Smoke_Grenade_shell"), "1Rnd_SmokeGreen_Grenade_shell"};
 };
@@ -317,8 +317,8 @@ class LM_FOREST_FUSILIER_AC : LM_FOREST_MAN
 	respawnWeapons[] = {SMA_ACRREMAFG, hgun_Rook40_F, launch_NLAW_F, Throw, Put};
 	items[] = {KSI};
 	respawnItems[] = {KSI};
-	linkedItems[] = {"VSM_LBT6094_operator_multicamTropic", "VSM_MulticamTropic_OPS_2", "tf_microdagr", "tf_rf7800str"};
-	respawnLinkedItems[] = {"VSM_LBT6094_operator_multicamTropic", "VSM_MulticamTropic_OPS_2", "tf_microdagr", "tf_rf7800str"};
+	linkedItems[] = {"VSM_LBT6094_operator_multicamTropic", "VSM_MulticamTropic_OPS_2", "ItemWatch", "tf_rf7800str"};
+	respawnLinkedItems[] = {"VSM_LBT6094_operator_multicamTropic", "VSM_MulticamTropic_OPS_2", "ItemWatch", "tf_rf7800str"};
 	magazines[] = {STD_mag_load};
 	respawnMagazines[] = {STD_mag_load};
 };
@@ -333,8 +333,8 @@ class LM_FOREST_DEMO : LM_FOREST_MAN
 	respawnWeapons[] = {SMA_ACRREMAFGCQB, hgun_Rook40_F, Throw, Put};
 	items[] = {KSI, "ACE_M26_Clacker"};
 	respawnItems[] = {KSI, "ACE_M26_Clacker"};
-	linkedItems[] = {"VSM_RAV_Breacher_MulticamTropic", "VSM_MulticamTropic_OPS_2", "G_Combat", "tf_microdagr", "tf_rf7800str"};
-	respawnLinkedItems[] = {"VSM_RAV_Breacher_MulticamTropic", "VSM_MulticamTropic_OPS_2", "G_Combat", "tf_microdagr", "tf_rf7800str"};
+	linkedItems[] = {"VSM_RAV_Breacher_MulticamTropic", "VSM_MulticamTropic_OPS_2", "G_Combat", "ItemWatch", "tf_rf7800str"};
+	respawnLinkedItems[] = {"VSM_RAV_Breacher_MulticamTropic", "VSM_MulticamTropic_OPS_2", "G_Combat", "ItemWatch", "tf_rf7800str"};
 	magazines[] = {STD_mag_load, mag_2("DemoCharge_Remote_Mag")};
 	respawnMagazines[] = {STD_mag_load, mag_2("DemoCharge_Remote_Mag")};
 };
@@ -348,8 +348,8 @@ class LM_FOREST_MITRAILLEUR : LM_FOREST_MAN
 	respawnWeapons[] = {sma_minimi_mk3_762tsb_wdl, hgun_Rook40_F, Throw, Put};
 	items[] = {KSI};
 	respawnItems[] = {KSI};
-	linkedItems[] = {"VSM_RAV_MG_MulticamTropic", "VSM_MulticamTropic_OPS_2", "tf_microdagr", "tf_rf7800str"};
-	respawnLinkedItems[] = {"VSM_RAV_MG_MulticamTropic", "VSM_MulticamTropic_OPS_2", "tf_microdagr", "tf_rf7800str"};
+	linkedItems[] = {"VSM_RAV_MG_MulticamTropic", "VSM_MulticamTropic_OPS_2", "ItemWatch", "tf_rf7800str"};
+	respawnLinkedItems[] = {"VSM_RAV_MG_MulticamTropic", "VSM_MulticamTropic_OPS_2", "ItemWatch", "tf_rf7800str"};
 	magazines[] = {mag_3("SMA_150Rnd_762_M80A1"), mag_3("16Rnd_9x21_Mag"), mag_2("HandGrenade"), mag_2("SmokeShell")};
 	respawnMagazines[] = {mag_3("SMA_150Rnd_762_M80A1"), mag_3("16Rnd_9x21_Mag"), mag_2("HandGrenade"), mag_2("SmokeShell")};
 };
@@ -363,8 +363,8 @@ class LM_FOREST_ARTILLEUR : LM_FOREST_MAN
 	respawnWeapons[] = {sma_minimi_mk3_762tlb_wdl, hgun_Rook40_F, Throw, Put};
 	items[] = {KSI};
 	respawnItems[] = {KSI};
-	linkedItems[] = {"VSM_RAV_MG_MulticamTropic", "VSM_MulticamTropic_OPS_2", "tf_microdagr", "tf_rf7800str"};
-	respawnLinkedItems[] = {"VSM_RAV_MG_MulticamTropic", "VSM_MulticamTropic_OPS_2", "tf_microdagr", "tf_rf7800str"};
+	linkedItems[] = {"VSM_RAV_MG_MulticamTropic", "VSM_MulticamTropic_OPS_2", "ItemWatch", "tf_rf7800str"};
+	respawnLinkedItems[] = {"VSM_RAV_MG_MulticamTropic", "VSM_MulticamTropic_OPS_2", "ItemWatch", "tf_rf7800str"};
 	magazines[] = {mag_3("SMA_150Rnd_762_M80A1"), mag_3("16Rnd_9x21_Mag"), mag_2("HandGrenade"), mag_2("SmokeShell")};
 	respawnMagazines[] = {mag_3("SMA_150Rnd_762_M80A1"), mag_3("16Rnd_9x21_Mag"), mag_2("HandGrenade"), mag_2("SmokeShell")};
 };
@@ -378,8 +378,8 @@ class LM_FOREST_TP : LM_FOREST_MAN
 	respawnWeapons[] = {SMA_ACRREMMOE, hgun_Rook40_F, Binocular, Throw, Put};
 	items[] = {KSI, "optic_SOS", "SMA_Gripod_01"};
 	respawnItems[] = {KSI, "optic_SOS", "SMA_Gripod_01"};
-	linkedItems[] = {"VSM_FAPC_Operator_MulticamTropic", "VSM_MulticamTropic_Boonie", "tf_microdagr", "tf_rf7800str"};
-	respawnLinkedItems[] = {"VSM_FAPC_Operator_MulticamTropic", "VSM_MulticamTropic_Boonie", "tf_microdagr", "tf_rf7800str"};
+	linkedItems[] = {"VSM_FAPC_Operator_MulticamTropic", "VSM_MulticamTropic_Boonie", "ItemWatch", "tf_rf7800str"};
+	respawnLinkedItems[] = {"VSM_FAPC_Operator_MulticamTropic", "VSM_MulticamTropic_Boonie", "ItemWatch", "tf_rf7800str"};
 	magazines[] = {STD_mag_load};
 	respawnMagazines[] = {STD_mag_load};
 };
@@ -393,8 +393,8 @@ class LM_FOREST_TL : LM_FOREST_MAN
 	respawnWeapons[] = {SMA_ACRREMGL, hgun_Rook40_F, Laserdesignator, Throw, Put};
 	items[] = {KSI, "ACE_microDAGR", "ACE_MapTools"};
 	respawnItems[] = {KSI, "ACE_microDAGR", "ACE_MapTools"};
-	linkedItems[] = {"VSM_RAV_operator_MulticamTropic", "LM_BERET_OFFICIER", "ItemMap", "ItemCompass", "tf_microdagr", "tf_anprc152"};
-	respawnLinkedItems[] = {"VSM_RAV_operator_MulticamTropic", "LM_BERET_OFFICIER", "ItemMap", "ItemCompass", "tf_microdagr", "tf_anprc152"};
+	linkedItems[] = {"VSM_RAV_operator_MulticamTropic", "LM_BERET_OFFICIER", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152"};
+	respawnLinkedItems[] = {"VSM_RAV_operator_MulticamTropic", "LM_BERET_OFFICIER", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152"};
 	magazines[] = {STD_mag_load, mag_10("1Rnd_HE_Grenade_shell"), "1Rnd_SmokeRed_Grenade_shell", "1Rnd_SmokeBlue_Grenade_shell", "1Rnd_Smoke_Grenade_shell", "1Rnd_SmokeGreen_Grenade_shell", mag_2("Laserbatteries"), "SmokeShellRed", "SmokeShellBlue", "SmokeShellGreen", "SmokeShellPurple"};
 	respawnMagazines[] = {STD_mag_load, mag_10("1Rnd_HE_Grenade_shell"), "1Rnd_SmokeRed_Grenade_shell", "1Rnd_SmokeBlue_Grenade_shell", "1Rnd_Smoke_Grenade_shell", "1Rnd_SmokeGreen_Grenade_shell", mag_2("Laserbatteries"), "SmokeShellRed", "SmokeShellBlue", "SmokeShellGreen", "SmokeShellPurple"};
 };
@@ -413,8 +413,8 @@ class LM_FOREST_SL : LM_FOREST_TL
 {
 	scope = protected;
 	displayName = $STR_units_squadleader;
-	linkedItems[] = {"VSM_RAV_operator_MulticamTropic", "VSM_MulticamTropic_Cap", "ItemMap", "ItemCompass", "tf_microdagr", "tf_anprc152"};
-	respawnLinkedItems[] = {"VSM_RAV_operator_MulticamTropic", "VSM_MulticamTropic_Cap", "ItemMap", "ItemCompass", "tf_microdagr", "tf_anprc152"};
+	linkedItems[] = {"VSM_RAV_operator_MulticamTropic", "VSM_MulticamTropic_Cap", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152"};
+	respawnLinkedItems[] = {"VSM_RAV_operator_MulticamTropic", "VSM_MulticamTropic_Cap", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152"};
 };
 
 class LM_FOREST_SPECIALISTE_AC : LM_FOREST_MAN
@@ -426,8 +426,8 @@ class LM_FOREST_SPECIALISTE_AC : LM_FOREST_MAN
 	respawnWeapons[] = {SMA_ACRREMAFGCQB, hgun_Rook40_F, launch_B_Titan_short_F, Throw, Put};
 	items[] = {KSI};
 	respawnItems[] = {KSI};
-	linkedItems[] = {"VSM_FAPC_Operator_MulticamTropic", "VSM_MulticamTropic_OPS_2", "tf_microdagr", "tf_rf7800str"};
-	respawnLinkedItems[] = {"VSM_FAPC_Operator_MulticamTropic", "VSM_MulticamTropic_OPS_2", "tf_microdagr", "tf_rf7800str"};
+	linkedItems[] = {"VSM_FAPC_Operator_MulticamTropic", "VSM_MulticamTropic_OPS_2", "ItemWatch", "tf_rf7800str"};
+	respawnLinkedItems[] = {"VSM_FAPC_Operator_MulticamTropic", "VSM_MulticamTropic_OPS_2", "ItemWatch", "tf_rf7800str"};
 	magazines[] = {STD_mag_load, "Titan_AT"};
 	respawnMagazines[] = {STD_mag_load, "Titan_AT"};
 };
@@ -441,8 +441,8 @@ class LM_FOREST_PORTEUR_AC : LM_FOREST_MAN
 	respawnWeapons[] = {SMA_ACRREMAFGCQB, hgun_Rook40_F, Throw, Put};
 	items[] = {KSI};
 	respawnItems[] = {KSI};
-	linkedItems[] = {"VSM_CarrierRig_Operator_multicamTropic", "VSM_MulticamTropic_OPS_2", "tf_microdagr", "tf_rf7800str"};
-	respawnLinkedItems[] = {"VSM_CarrierRig_Operator_multicamTropic", "VSM_MulticamTropic_OPS_2", "tf_microdagr", "tf_rf7800str"};
+	linkedItems[] = {"VSM_CarrierRig_Operator_multicamTropic", "VSM_MulticamTropic_OPS_2", "ItemWatch", "tf_rf7800str"};
+	respawnLinkedItems[] = {"VSM_CarrierRig_Operator_multicamTropic", "VSM_MulticamTropic_OPS_2", "ItemWatch", "tf_rf7800str"};
 	magazines[] = {STD_mag_load};
 	respawnMagazines[] = {STD_mag_load};
 };
@@ -473,8 +473,8 @@ class LM_FOREST_MEDIC : LM_FOREST_MAN
 	respawnWeapons[] = {SMA_ACRREMAFGCQB, hgun_Rook40_F, Throw, Put};
 	items[] = {KSI};
 	respawnItems[] = {KSI};
-	linkedItems[] = {"VSM_LBT6094_operator_multicamTropic", "VSM_MulticamTropic_OPS_2", "tf_microdagr", "tf_rf7800str"};
-	respawnLinkedItems[] = {"VSM_LBT6094_operator_multicamTropic", "VSM_MulticamTropic_OPS_2", "tf_microdagr", "tf_rf7800str"};
+	linkedItems[] = {"VSM_LBT6094_operator_multicamTropic", "VSM_MulticamTropic_OPS_2", "ItemWatch", "tf_rf7800str"};
+	respawnLinkedItems[] = {"VSM_LBT6094_operator_multicamTropic", "VSM_MulticamTropic_OPS_2", "ItemWatch", "tf_rf7800str"};
 	magazines[] = {mag_5("SMA_30Rnd_68x43_SPC_FMJ"), mag_3("16Rnd_9x21_Mag"), mag_8("SmokeShell"), mag_2("SmokeShellYellow")};
 	respawnMagazines[] = {mag_5("SMA_30Rnd_68x43_SPC_FMJ"), mag_3("16Rnd_9x21_Mag"), mag_8("SmokeShell"), mag_2("SmokeShellYellow")};
 };
@@ -496,8 +496,8 @@ class LM_FOREST_OPERADIO : LM_FOREST_MAN
 	respawnWeapons[] = {SMA_ACRREMAFG, hgun_Rook40_F, Throw, Put};
 	items[] = {KSI};
 	respawnItems[] = {KSI};
-	linkedItems[] = {"VSM_LBT6094_operator_multicamTropic", "VSM_MulticamTropic_OPS_2", "tf_microdagr", "tf_anprc152", "ItemMap"};
-	respawnLinkedItems[] = {"VSM_LBT6094_operator_multicamTropic", "VSM_MulticamTropic_OPS_2", "tf_microdagr", "tf_anprc152", "ItemMap"};
+	linkedItems[] = {"VSM_LBT6094_operator_multicamTropic", "VSM_MulticamTropic_OPS_2", "ItemWatch", "tf_anprc152", "ItemMap"};
+	respawnLinkedItems[] = {"VSM_LBT6094_operator_multicamTropic", "VSM_MulticamTropic_OPS_2", "ItemWatch", "tf_anprc152", "ItemMap"};
 	magazines[] = {STD_mag_load, "SmokeShellGreen", "SmokeShellBlue"};
 	respawnMagazines[] = {STD_mag_load, "SmokeShellGreen", "SmokeShellBlue"};
 };
@@ -515,8 +515,8 @@ class LM_FOREST_OPEDRONE : B_soldier_UAV_F
 	respawnWeapons[] = {SMA_ACRREMAFG, hgun_Rook40_F, Throw, Put};
 	items[] = {KSI};
 	respawnItems[] = {KSI};
-	linkedItems[] = {"VSM_LBT6094_operator_multicamTropic", "VSM_MulticamTropic_OPS_2", "B_UavTerminal", "tf_microdagr", "tf_rf7800str"};
-	respawnLinkedItems[] = {"VSM_LBT6094_operator_multicamTropic", "VSM_MulticamTropic_OPS_2", "B_UavTerminal", "tf_microdagr", "tf_rf7800str"};
+	linkedItems[] = {"VSM_LBT6094_operator_multicamTropic", "VSM_MulticamTropic_OPS_2", "B_UavTerminal", "ItemWatch", "tf_rf7800str"};
+	respawnLinkedItems[] = {"VSM_LBT6094_operator_multicamTropic", "VSM_MulticamTropic_OPS_2", "B_UavTerminal", "ItemWatch", "tf_rf7800str"};
 	magazines[] = {STD_mag_load};
 	respawnMagazines[] = {STD_mag_load};
 };
@@ -531,8 +531,8 @@ class LM_FOREST_MK6_GUNNER : LM_FOREST_MAN
 	respawnWeapons[] = {SMA_ACRREMAFGCQB, hgun_Rook40_F, Throw, Put};
 	items[] = {KSI};
 	respawnItems[] = {KSI};
-	linkedItems[] = {"VSM_FAPC_MG_MulticamTropic", "VSM_MulticamTropic_Boonie", "tf_microdagr", "tf_rf7800str", "ItemMap", "ItemCompass"};
-	respawnLinkedItems[] = {"VSM_FAPC_MG_MulticamTropic", "VSM_MulticamTropic_Boonie", "tf_microdagr", "tf_rf7800str", "ItemMap", "ItemCompass"};
+	linkedItems[] = {"VSM_FAPC_MG_MulticamTropic", "VSM_MulticamTropic_Boonie", "ItemWatch", "tf_rf7800str", "ItemMap", "ItemCompass"};
+	respawnLinkedItems[] = {"VSM_FAPC_MG_MulticamTropic", "VSM_MulticamTropic_Boonie", "ItemWatch", "tf_rf7800str", "ItemMap", "ItemCompass"};
 	magazines[] = {STD_mag_load};
 	respawnMagazines[] = {STD_mag_load};
 };
@@ -559,8 +559,8 @@ class LM_FOREST_INGENIEUR : LM_FOREST_MAN
 	respawnWeapons[] = {SMA_ACRREMAFGCQB, hgun_Rook40_F, Throw, Put};
 	items[] = {KSI};
 	respawnItems[] = {KSI};
-	linkedItems[] = {"VSM_FAPC_MG_MulticamTropic", "H_HelmetCrew_B", "tf_microdagr", "tf_rf7800str"};
-	respawnLinkedItems[] = {"VSM_FAPC_MG_MulticamTropic", "H_HelmetCrew_B", "tf_microdagr", "tf_rf7800str"};
+	linkedItems[] = {"VSM_FAPC_MG_MulticamTropic", "H_HelmetCrew_B", "ItemWatch", "tf_rf7800str"};
+	respawnLinkedItems[] = {"VSM_FAPC_MG_MulticamTropic", "H_HelmetCrew_B", "ItemWatch", "tf_rf7800str"};
 	magazines[] = {STD_mag_load};
 	respawnMagazines[] = {STD_mag_load};
 };
@@ -575,8 +575,8 @@ class LM_FOREST_JTACAO : LM_FOREST_MAN
 	respawnWeapons[] = {SMA_ACRREMGL, hgun_Rook40_F, Laserdesignator, Throw, Put};
 	items[] = {KSI, "ACE_MapTools", "Laserbatteries", "ACE_EntrenchingTool", "ACE_microDAGR"};
 	respawnItems[] = {KSI, "ACE_MapTools", "Laserbatteries", "ACE_EntrenchingTool", "ACE_microDAGR"};
-	linkedItems[] = {"VSM_FAPC_MG_MulticamTropic", "VSM_MulticamTropic_Boonie", "tf_microdagr", "tf_rf7800str", "ItemMap", "ItemCompass"};
-	respawnLinkedItems[] = {"VSM_FAPC_MG_MulticamTropic", "VSM_MulticamTropic_Boonie", "tf_microdagr", "tf_rf7800str", "ItemMap", "ItemCompass"};
+	linkedItems[] = {"VSM_FAPC_MG_MulticamTropic", "VSM_MulticamTropic_Boonie", "ItemWatch", "tf_rf7800str", "ItemMap", "ItemCompass"};
+	respawnLinkedItems[] = {"VSM_FAPC_MG_MulticamTropic", "VSM_MulticamTropic_Boonie", "ItemWatch", "tf_rf7800str", "ItemMap", "ItemCompass"};
 	magazines[] = {STD_mag_load, mag_5("1Rnd_SmokeRed_Grenade_shell"), mag_5("1Rnd_SmokeGreen_Grenade_shell"), mag_5("1Rnd_SmokeBlue_Grenade_shell"), "SmokeShellGreen", "SmokeShellBlue"};
 	respawnMagazines[] = {STD_mag_load, mag_5("1Rnd_SmokeRed_Grenade_shell"), mag_5("1Rnd_SmokeGreen_Grenade_shell"), mag_5("1Rnd_SmokeBlue_Grenade_shell"), "SmokeShellGreen", "SmokeShellBlue"};
 };

@@ -278,8 +278,8 @@ class LM_BASE_OFFICIER : LM_BASE_MAN
 	respawnWeapons[] = {Throw, Put};
 	items[] = {KSI};
 	respawnItems[] = {KSI};
-	linkedItems[] = {"tf_microdagr", "LM_BERET_OFFICIER", "ItemMap"};
-	respawnLinkedItems[] = {"tf_microdagr", "LM_BERET_OFFICIER", "ItemMap"};
+	linkedItems[] = {"ItemWatch", "LM_BERET_OFFICIER", "ItemMap"};
+	respawnLinkedItems[] = {"ItemWatch", "LM_BERET_OFFICIER", "ItemMap"};
 	magazines[] = {};
 	respawnMagazines[] = {};
 };
@@ -293,8 +293,8 @@ class LM_BASE_FUSILIER : LM_BASE_MAN
 	respawnWeapons[] = {SMA_ACRREMAFG, hgun_Rook40_F, Throw, Put};
 	items[] = {KSI};
 	respawnItems[] = {KSI};
-	linkedItems[] = {"VSM_LBT6094_operator_AOR1", "VSM_Mich2000_2_aor1", "tf_microdagr", "tf_rf7800str"};
-	respawnLinkedItems[] = {"VSM_LBT6094_operator_AOR1", "VSM_Mich2000_2_aor1", "tf_microdagr", "tf_rf7800str"};
+	linkedItems[] = {"VSM_LBT6094_operator_AOR1", "VSM_Mich2000_2_aor1", "ItemWatch", "tf_rf7800str"};
+	respawnLinkedItems[] = {"VSM_LBT6094_operator_AOR1", "VSM_Mich2000_2_aor1", "ItemWatch", "tf_rf7800str"};
 	magazines[] = {STD_mag_load};
 	respawnMagazines[] = {STD_mag_load};
 };
@@ -308,8 +308,8 @@ class LM_BASE_GRENADIER : LM_BASE_MAN
 	respawnWeapons[] = {SMA_ACRREMGL, hgun_Rook40_F, Throw, Put};
 	items[] = {KSI};
 	respawnItems[] = {KSI};
-	linkedItems[] = {"VSM_LBT6094_operator_AOR1", "VSM_Mich2000_AOR1", "tf_microdagr", "tf_rf7800str"};
-	respawnLinkedItems[] = {"VSM_LBT6094_operator_AOR1", "VSM_Mich2000_AOR1", "tf_microdagr", "tf_rf7800str"};
+	linkedItems[] = {"VSM_LBT6094_operator_AOR1", "VSM_Mich2000_AOR1", "ItemWatch", "tf_rf7800str"};
+	respawnLinkedItems[] = {"VSM_LBT6094_operator_AOR1", "VSM_Mich2000_AOR1", "ItemWatch", "tf_rf7800str"};
 	magazines[] = {STD_mag_load, mag_10("1Rnd_HE_Grenade_shell"), mag_2("1Rnd_SmokeRed_Grenade_shell"), mag_2("1Rnd_SmokeBlue_Grenade_shell"), mag_2("1Rnd_Smoke_Grenade_shell"), "1Rnd_SmokeGreen_Grenade_shell"};
 	respawnMagazines[] = {STD_mag_load, mag_10("1Rnd_HE_Grenade_shell"), mag_2("1Rnd_SmokeRed_Grenade_shell"), mag_2("1Rnd_SmokeBlue_Grenade_shell"), mag_2("1Rnd_Smoke_Grenade_shell"), "1Rnd_SmokeGreen_Grenade_shell"};
 };
@@ -323,8 +323,8 @@ class LM_BASE_FUSILIER_AC : LM_BASE_MAN
 	respawnWeapons[] = {SMA_ACRREMAFG, hgun_Rook40_F, launch_NLAW_F, Throw, Put};
 	items[] = {KSI};
 	respawnItems[] = {KSI};
-	linkedItems[] = {"VSM_LBT6094_operator_AOR1", "VSM_OPS_aor1", "tf_microdagr", "tf_rf7800str"};
-	respawnLinkedItems[] = {"VSM_LBT6094_operator_AOR1", "VSM_OPS_aor1", "tf_microdagr", "tf_rf7800str"};
+	linkedItems[] = {"VSM_LBT6094_operator_AOR1", "VSM_OPS_aor1", "ItemWatch", "tf_rf7800str"};
+	respawnLinkedItems[] = {"VSM_LBT6094_operator_AOR1", "VSM_OPS_aor1", "ItemWatch", "tf_rf7800str"};
 	magazines[] = {STD_mag_load};
 	respawnMagazines[] = {STD_mag_load};
 };
@@ -339,8 +339,8 @@ class LM_BASE_DEMO : LM_BASE_MAN
 	respawnWeapons[] = {SMA_ACRREMAFGCQB, hgun_Rook40_F, Throw, Put};
 	items[] = {KSI, "ACE_M26_Clacker"};
 	respawnItems[] = {KSI, "ACE_M26_Clacker"};
-	linkedItems[] = {"VSM_RAV_Breacher_AOR1", "VSM_Mich2000_2_aor1", "G_Combat", "tf_microdagr", "tf_rf7800str"};
-	respawnLinkedItems[] = {"VSM_RAV_Breacher_AOR1", "VSM_Mich2000_2_aor1", "G_Combat", "tf_microdagr", "tf_rf7800str"};
+	linkedItems[] = {"VSM_RAV_Breacher_AOR1", "VSM_Mich2000_2_aor1", "G_Combat", "ItemWatch", "tf_rf7800str"};
+	respawnLinkedItems[] = {"VSM_RAV_Breacher_AOR1", "VSM_Mich2000_2_aor1", "G_Combat", "ItemWatch", "tf_rf7800str"};
 	magazines[] = {STD_mag_load, mag_2("DemoCharge_Remote_Mag")};
 	respawnMagazines[] = {STD_mag_load, mag_2("DemoCharge_Remote_Mag")};
 };
@@ -354,8 +354,8 @@ class LM_BASE_MITRAILLEUR : LM_BASE_MAN
 	respawnWeapons[] = {sma_minimi_mk3_762tsb_des, hgun_Rook40_F, Throw, Put};
 	items[] = {KSI};
 	respawnItems[] = {KSI};
-	linkedItems[] = {"VSM_RAV_MG_AOR1", "VSM_Mich2000_2_aor1", "tf_microdagr", "tf_rf7800str"};
-	respawnLinkedItems[] = {"VSM_RAV_MG_AOR1", "VSM_Mich2000_2_aor1", "tf_microdagr", "tf_rf7800str"};
+	linkedItems[] = {"VSM_RAV_MG_AOR1", "VSM_Mich2000_2_aor1", "ItemWatch", "tf_rf7800str"};
+	respawnLinkedItems[] = {"VSM_RAV_MG_AOR1", "VSM_Mich2000_2_aor1", "ItemWatch", "tf_rf7800str"};
 	magazines[] = {mag_3("SMA_150Rnd_762_M80A1"), mag_3("16Rnd_9x21_Mag"), mag_2("HandGrenade"), mag_2("SmokeShell")};
 	respawnMagazines[] = {mag_3("SMA_150Rnd_762_M80A1"), mag_3("16Rnd_9x21_Mag"), mag_2("HandGrenade"), mag_2("SmokeShell")};
 };
@@ -369,8 +369,8 @@ class LM_BASE_ARTILLEUR : LM_BASE_MAN
 	respawnWeapons[] = {sma_minimi_mk3_762tlb_des, hgun_Rook40_F, Throw, Put};
 	items[] = {KSI};
 	respawnItems[] = {KSI};
-	linkedItems[] = {"VSM_RAV_MG_AOR1", "VSM_Mich2000_2_aor1", "tf_microdagr", "tf_rf7800str"};
-	respawnLinkedItems[] = {"VSM_RAV_MG_AOR1", "VSM_Mich2000_2_aor1", "tf_microdagr", "tf_rf7800str"};
+	linkedItems[] = {"VSM_RAV_MG_AOR1", "VSM_Mich2000_2_aor1", "ItemWatch", "tf_rf7800str"};
+	respawnLinkedItems[] = {"VSM_RAV_MG_AOR1", "VSM_Mich2000_2_aor1", "ItemWatch", "tf_rf7800str"};
 	magazines[] = {mag_3("SMA_150Rnd_762_M80A1"), mag_3("16Rnd_9x21_Mag"), mag_2("HandGrenade"), mag_2("SmokeShell")};
 	respawnMagazines[] = {mag_3("SMA_150Rnd_762_M80A1"), mag_3("16Rnd_9x21_Mag"), mag_2("HandGrenade"), mag_2("SmokeShell")};
 };
@@ -384,8 +384,8 @@ class LM_BASE_TP : LM_BASE_MAN
 	respawnWeapons[] = {SMA_ACRREMMOE, hgun_Rook40_F, Binocular, Throw, Put};
 	items[] = {KSI, "optic_SOS", "SMA_Gripod_01"};
 	respawnItems[] = {KSI, "optic_SOS", "SMA_Gripod_01"};
-	linkedItems[] = {"VSM_FAPC_Operator_AOR1", "VSM_AOR1_Boonie", "tf_microdagr", "tf_rf7800str"};
-	respawnLinkedItems[] = {"VSM_FAPC_Operator_AOR1", "VSM_AOR1_Boonie", "tf_microdagr", "tf_rf7800str"};
+	linkedItems[] = {"VSM_FAPC_Operator_AOR1", "VSM_AOR1_Boonie", "ItemWatch", "tf_rf7800str"};
+	respawnLinkedItems[] = {"VSM_FAPC_Operator_AOR1", "VSM_AOR1_Boonie", "ItemWatch", "tf_rf7800str"};
 	magazines[] = {STD_mag_load};
 	respawnMagazines[] = {STD_mag_load};
 };
@@ -399,8 +399,8 @@ class LM_BASE_TL : LM_BASE_MAN
 	respawnWeapons[] = {SMA_ACRREMGL, hgun_Rook40_F, Laserdesignator, Throw, Put};
 	items[] = {KSI, "ACE_microDAGR", "ACE_MapTools"};
 	respawnItems[] = {KSI, "ACE_microDAGR", "ACE_MapTools"};
-	linkedItems[] = {"VSM_RAV_operator_AOR1", "LM_BERET_OFFICIER", "ItemMap", "ItemCompass", "tf_microdagr", "tf_anprc152"};
-	respawnLinkedItems[] = {"VSM_RAV_operator_AOR1", "LM_BERET_OFFICIER", "ItemMap", "ItemCompass", "tf_microdagr", "tf_anprc152"};
+	linkedItems[] = {"VSM_RAV_operator_AOR1", "LM_BERET_OFFICIER", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152"};
+	respawnLinkedItems[] = {"VSM_RAV_operator_AOR1", "LM_BERET_OFFICIER", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152"};
 	magazines[] = {STD_mag_load, mag_10("1Rnd_HE_Grenade_shell"), "1Rnd_SmokeRed_Grenade_shell", "1Rnd_SmokeBlue_Grenade_shell", "1Rnd_Smoke_Grenade_shell", "1Rnd_SmokeGreen_Grenade_shell", mag_2("Laserbatteries"), "SmokeShellRed", "SmokeShellBlue", "SmokeShellGreen", "SmokeShellPurple"};
 	respawnMagazines[] = {STD_mag_load, mag_10("1Rnd_HE_Grenade_shell"), "1Rnd_SmokeRed_Grenade_shell", "1Rnd_SmokeBlue_Grenade_shell", "1Rnd_Smoke_Grenade_shell", "1Rnd_SmokeGreen_Grenade_shell", mag_2("Laserbatteries"), "SmokeShellRed", "SmokeShellBlue", "SmokeShellGreen", "SmokeShellPurple"};
 };
@@ -419,8 +419,8 @@ class LM_BASE_SL : LM_BASE_TL
 {
 	scope = protected;
 	displayName = $STR_units_squadleader;
-	linkedItems[] = {"VSM_RAV_operator_AOR1", "VSM_AOR1_Cap", "ItemMap", "ItemCompass", "tf_microdagr", "tf_anprc152"};
-	respawnLinkedItems[] = {"VSM_RAV_operator_AOR1", "VSM_AOR1_Cap", "ItemMap", "ItemCompass", "tf_microdagr", "tf_anprc152"};
+	linkedItems[] = {"VSM_RAV_operator_AOR1", "VSM_AOR1_Cap", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152"};
+	respawnLinkedItems[] = {"VSM_RAV_operator_AOR1", "VSM_AOR1_Cap", "ItemMap", "ItemCompass", "ItemWatch", "tf_anprc152"};
 };
 
 class LM_BASE_SPECIALISTE_AC : LM_BASE_MAN
@@ -432,8 +432,8 @@ class LM_BASE_SPECIALISTE_AC : LM_BASE_MAN
 	respawnWeapons[] = {SMA_ACRREMAFGCQB, hgun_Rook40_F, launch_B_Titan_short_F, Throw, Put};
 	items[] = {KSI};
 	respawnItems[] = {KSI};
-	linkedItems[] = {"VSM_FAPC_Operator_AOR1", "VSM_OPS_aor1", "tf_microdagr", "tf_rf7800str"};
-	respawnLinkedItems[] = {"VSM_FAPC_Operator_AOR1", "VSM_OPS_aor1", "tf_microdagr", "tf_rf7800str"};
+	linkedItems[] = {"VSM_FAPC_Operator_AOR1", "VSM_OPS_aor1", "ItemWatch", "tf_rf7800str"};
+	respawnLinkedItems[] = {"VSM_FAPC_Operator_AOR1", "VSM_OPS_aor1", "ItemWatch", "tf_rf7800str"};
 	magazines[] = {STD_mag_load, "Titan_AT"};
 	respawnMagazines[] = {STD_mag_load, "Titan_AT"};
 };
@@ -447,8 +447,8 @@ class LM_BASE_PORTEUR_AC : LM_BASE_MAN
 	respawnWeapons[] = {SMA_ACRREMAFGCQB, hgun_Rook40_F, Throw, Put};
 	items[] = {KSI};
 	respawnItems[] = {KSI};
-	linkedItems[] = {"VSM_CarrierRig_Operator_AOR1", "VSM_OPS_2_AOR1", "tf_microdagr", "tf_rf7800str"};
-	respawnLinkedItems[] = {"VSM_CarrierRig_Operator_AOR1", "VSM_OPS_2_AOR1", "tf_microdagr", "tf_rf7800str"};
+	linkedItems[] = {"VSM_CarrierRig_Operator_AOR1", "VSM_OPS_2_AOR1", "ItemWatch", "tf_rf7800str"};
+	respawnLinkedItems[] = {"VSM_CarrierRig_Operator_AOR1", "VSM_OPS_2_AOR1", "ItemWatch", "tf_rf7800str"};
 	magazines[] = {STD_mag_load};
 	respawnMagazines[] = {STD_mag_load};
 };
@@ -479,8 +479,8 @@ class LM_BASE_MEDIC : LM_BASE_MAN
 	respawnWeapons[] = {SMA_ACRREMAFGCQB, hgun_Rook40_F, Throw, Put};
 	items[] = {KSI};
 	respawnItems[] = {KSI};
-	linkedItems[] = {"VSM_LBT6094_operator_AOR1", "LM_OPS2_AOR1_MEDIC", "tf_microdagr", "tf_rf7800str"};
-	respawnLinkedItems[] = {"VSM_LBT6094_operator_AOR1", "LM_OPS2_AOR1_MEDIC", "tf_microdagr", "tf_rf7800str"};
+	linkedItems[] = {"VSM_LBT6094_operator_AOR1", "LM_OPS2_AOR1_MEDIC", "ItemWatch", "tf_rf7800str"};
+	respawnLinkedItems[] = {"VSM_LBT6094_operator_AOR1", "LM_OPS2_AOR1_MEDIC", "ItemWatch", "tf_rf7800str"};
 	magazines[] = {mag_5("SMA_30Rnd_68x43_SPC_FMJ"), mag_3("16Rnd_9x21_Mag"), mag_8("SmokeShell"), mag_2("SmokeShellYellow")};
 	respawnMagazines[] = {mag_5("SMA_30Rnd_68x43_SPC_FMJ"), mag_3("16Rnd_9x21_Mag"), mag_8("SmokeShell"), mag_2("SmokeShellYellow")};
 };
@@ -502,8 +502,8 @@ class LM_BASE_OPERADIO : LM_BASE_MAN
 	respawnWeapons[] = {SMA_ACRREMAFG, hgun_Rook40_F, Throw, Put};
 	items[] = {KSI};
 	respawnItems[] = {KSI};
-	linkedItems[] = {"VSM_LBT6094_operator_AOR1", "VSM_OPS_aor1", "tf_microdagr", "tf_anprc152", "ItemMap"};
-	respawnLinkedItems[] = {"VSM_LBT6094_operator_AOR1", "VSM_OPS_aor1", "tf_microdagr", "tf_anprc152", "ItemMap"};
+	linkedItems[] = {"VSM_LBT6094_operator_AOR1", "VSM_OPS_aor1", "ItemWatch", "tf_anprc152", "ItemMap"};
+	respawnLinkedItems[] = {"VSM_LBT6094_operator_AOR1", "VSM_OPS_aor1", "ItemWatch", "tf_anprc152", "ItemMap"};
 	magazines[] = {STD_mag_load, "SmokeShellGreen", "SmokeShellBlue"};
 	respawnMagazines[] = {STD_mag_load, "SmokeShellGreen", "SmokeShellBlue"};
 };
@@ -521,8 +521,8 @@ class LM_BASE_OPEDRONE : B_soldier_UAV_F
 	respawnWeapons[] = {SMA_ACRREMAFG, hgun_Rook40_F, Throw, Put};
 	items[] = {KSI};
 	respawnItems[] = {KSI};
-	linkedItems[] = {"VSM_LBT6094_operator_AOR1", "VSM_Mich2000_2_aor1", "B_UavTerminal", "tf_microdagr", "tf_rf7800str"};
-	respawnLinkedItems[] = {"VSM_LBT6094_operator_AOR1", "VSM_Mich2000_2_aor1", "B_UavTerminal", "tf_microdagr", "tf_rf7800str"};
+	linkedItems[] = {"VSM_LBT6094_operator_AOR1", "VSM_Mich2000_2_aor1", "B_UavTerminal", "ItemWatch", "tf_rf7800str"};
+	respawnLinkedItems[] = {"VSM_LBT6094_operator_AOR1", "VSM_Mich2000_2_aor1", "B_UavTerminal", "ItemWatch", "tf_rf7800str"};
 	magazines[] = {STD_mag_load};
 	respawnMagazines[] = {STD_mag_load};
 };
@@ -537,8 +537,8 @@ class LM_BASE_MK6_GUNNER : LM_BASE_MAN
 	respawnWeapons[] = {SMA_ACRREMAFGCQB, hgun_Rook40_F, Throw, Put};
 	items[] = {KSI};
 	respawnItems[] = {KSI};
-	linkedItems[] = {"VSM_FAPC_MG_AOR1", "H_Booniehat_khk_hs", "tf_microdagr", "tf_rf7800str", "ItemMap", "ItemCompass"};
-	respawnLinkedItems[] = {"VSM_FAPC_MG_AOR1", "H_Booniehat_khk_hs", "tf_microdagr", "tf_rf7800str", "ItemMap", "ItemCompass"};
+	linkedItems[] = {"VSM_FAPC_MG_AOR1", "H_Booniehat_khk_hs", "ItemWatch", "tf_rf7800str", "ItemMap", "ItemCompass"};
+	respawnLinkedItems[] = {"VSM_FAPC_MG_AOR1", "H_Booniehat_khk_hs", "ItemWatch", "tf_rf7800str", "ItemMap", "ItemCompass"};
 	magazines[] = {STD_mag_load};
 	respawnMagazines[] = {STD_mag_load};
 };
@@ -565,8 +565,8 @@ class LM_BASE_INGENIEUR : LM_BASE_MAN
 	respawnWeapons[] = {SMA_ACRREMAFGCQB, hgun_Rook40_F, Throw, Put};
 	items[] = {KSI};
 	respawnItems[] = {KSI};
-	linkedItems[] = {"VSM_FAPC_MG_AOR1", "H_HelmetCrew_B", "tf_microdagr", "tf_rf7800str"};
-	respawnLinkedItems[] = {"VSM_FAPC_MG_AOR1", "H_HelmetCrew_B", "tf_microdagr", "tf_rf7800str"};
+	linkedItems[] = {"VSM_FAPC_MG_AOR1", "H_HelmetCrew_B", "ItemWatch", "tf_rf7800str"};
+	respawnLinkedItems[] = {"VSM_FAPC_MG_AOR1", "H_HelmetCrew_B", "ItemWatch", "tf_rf7800str"};
 	magazines[] = {STD_mag_load};
 	respawnMagazines[] = {STD_mag_load};
 };
@@ -581,8 +581,8 @@ class LM_BASE_JTACAO : LM_BASE_MAN
 	respawnWeapons[] = {SMA_ACRREMGL, hgun_Rook40_F, Laserdesignator, Throw, Put};
 	items[] = {KSI, "ACE_MapTools", "Laserbatteries", "ACE_EntrenchingTool", "ACE_microDAGR"};
 	respawnItems[] = {KSI, "ACE_MapTools", "Laserbatteries", "ACE_EntrenchingTool", "ACE_microDAGR"};
-	linkedItems[] = {"VSM_FAPC_MG_AOR1", "H_Booniehat_khk_hs", "tf_microdagr", "tf_rf7800str", "ItemMap", "ItemCompass"};
-	respawnLinkedItems[] = {"VSM_FAPC_MG_AOR1", "H_Booniehat_khk_hs", "tf_microdagr", "tf_rf7800str", "ItemMap", "ItemCompass"};
+	linkedItems[] = {"VSM_FAPC_MG_AOR1", "H_Booniehat_khk_hs", "ItemWatch", "tf_rf7800str", "ItemMap", "ItemCompass"};
+	respawnLinkedItems[] = {"VSM_FAPC_MG_AOR1", "H_Booniehat_khk_hs", "ItemWatch", "tf_rf7800str", "ItemMap", "ItemCompass"};
 	magazines[] = {STD_mag_load, mag_5("1Rnd_SmokeRed_Grenade_shell"), mag_5("1Rnd_SmokeGreen_Grenade_shell"), mag_5("1Rnd_SmokeBlue_Grenade_shell"), "SmokeShellGreen", "SmokeShellBlue"};
 	respawnMagazines[] = {STD_mag_load, mag_5("1Rnd_SmokeRed_Grenade_shell"), mag_5("1Rnd_SmokeGreen_Grenade_shell"), mag_5("1Rnd_SmokeBlue_Grenade_shell"), "SmokeShellGreen", "SmokeShellBlue"};
 };
