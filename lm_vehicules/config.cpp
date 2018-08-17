@@ -93,7 +93,7 @@ class CfgVehicles
 	//Hummingbird, Blackfoot, GhostHawk
 	class B_Heli_Light_01_F;
 	class B_Heli_Light_01_armed_F;
-	class B_Heli_Attack_01_F;
+	class B_Heli_Attack_01_dynamicLoadout_F;
 	class B_Heli_Transport_01_F;
 	
 	//Mohawk, Taru
@@ -310,7 +310,7 @@ class CfgVehicles
 	};
 	
 	// Blackfoot
-	class LM_BLACKFOOT : B_Heli_Attack_01_F
+	class LM_BLACKFOOT : B_Heli_Attack_01_dynamicLoadout_F
 	{
 		scope = 2;
 		side = 1;
