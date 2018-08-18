@@ -75,6 +75,11 @@ class LM_GENIE_PAQUETAGE_FOREST : VSM_MulticamTropic_Backpack_Compact
 			name = "ACE_Sandbag_empty";
 			count = 5;
 		};
+		class _xx_ACE_Fortify
+		{
+			name = "ACE_Fortify";
+			count = 1;
+		};
 	};
 };
 class LM_DEMO_PAQUETAGE_FOREST : VSM_MulticamTropic_Backpack_Compact
@@ -554,7 +559,7 @@ class LM_FOREST_INGENIEUR : LM_FOREST_MAN
 	scope = public;
 	displayName = $STR_units_ingenieur;
 	uniformClass = "VSM_MulticamTropic_od_shirt_Camo_SS"
-	backapck = "LM_GENIE_PAQUETAGE_FOREST";
+	backpack = "LM_GENIE_PAQUETAGE_FOREST";
 	weapons[] = {SMA_ACRREMAFGCQB, hgun_Rook40_F, Throw, Put};
 	respawnWeapons[] = {SMA_ACRREMAFGCQB, hgun_Rook40_F, Throw, Put};
 	items[] = {KSI, "LM_BERET_OFFICIER"};
