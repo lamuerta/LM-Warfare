@@ -170,7 +170,7 @@ class LM_DOCTOR_PAQUETAGE_FOREST : VSM_MulticamTropic_Backpack_Kitbag
 		class _xx_RDP_Splint
 		{
 			name = "RDP_Splint";
-			count = 5;
+			count = 10;
 		};
 		class _xx_adv_aceCPR_AED
 		{
@@ -230,7 +230,7 @@ class LM_MEDIC_PAQUETAGE_FOREST : VSM_MulticamTropic_Backpack_Kitbag
 		class _xx_RDP_Splint
 		{
 			name = "RDP_Splint";
-			count = 5;
+			count = 10;
 		};
 	};
 };

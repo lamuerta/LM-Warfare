@@ -24,7 +24,7 @@
 #define mag_9(a) a, a, a, a, a, a, a, a, a
 #define mag_10(a) a, a, a, a, a, a, a, a, a, a
 
-#define KSI 			mag_8("ACE_quikclot"),"ACE_tourniquet","ACE_morphine","ACE_EarPlugs",mag_2("ACE_CableTie")
+#define KSI 			mag_8("ACE_quikclot"),"ACE_tourniquet","ACE_morphine","ACE_EarPlugs",mag_2("ACE_CableTie"),"RDP_Splint"
 #define STD_mag_load 	mag_5("SMA_30Rnd_68x43_SPC_FMJ"),mag_3("16Rnd_9x21_Mag"),mag_2("HandGrenade"),mag_2("SmokeShell"),mag_2("ACE_M84")
 
 
