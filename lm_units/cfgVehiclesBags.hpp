@@ -163,6 +163,7 @@ class LM_WALLY_FOREST_BAG : B_Static_Designator_01_weapon_F
 class tfw_ilbe_coy;
 class LM_RADIO_BASE : tfw_ilbe_coy
 {
+	scope = 1;
 	author = "[LM] Karoucho, [LM] Cheitan";
 	faction = "LM_MUERTA";
 	displayName = $STR_bags_radiobase;
@@ -172,6 +173,7 @@ class LM_RADIO_BASE : tfw_ilbe_coy
 class tfw_ilbe_gr;
 class LM_RADIO_FOREST : tfw_ilbe_gr
 {
+	scope = 1;
 	author = "[LM] Karoucho, [LM] Cheitan";
 	faction = "LM_MUERTA";
 	displayName = $STR_bags_radioforest;

@@ -413,7 +413,7 @@ class LM_BASE_TL : LM_BASE_MAN
 class LM_BASE_TL_RADIO : LM_BASE_TL
 {
 	displayName = $STR_units_teamleader_radio;
-	backpack = "LM_RADIO_BASE";
+	backpack = "tfw_ilbe_coy";
 	weapons[] = {SMA_ACRREMAFG, hgun_Rook40_F, Laserdesignator, Throw, Put};
 	respawnWeapons[] = {SMA_ACRREMAFG, hgun_Rook40_F, Laserdesignator, Throw, Put};
 	magazines[] = {STD_mag_load, "SmokeShellRed", mag_2("SmokeShellGreen"), mag_2("SmokeShellBlue"), "SmokeShellYellow", mag_2("Laserbatteries")};
@@ -502,7 +502,7 @@ class LM_BASE_OPERADIO : LM_BASE_MAN
 	scope = public;
 	displayName = $STR_units_radiooperator;
 	uniformClass = "VSM_AOR1_Camo";
-	backpack = "LM_RADIO_BASE";
+	backpack = "tfw_ilbe_coy";
 	weapons[] = {SMA_ACRREMAFG, hgun_Rook40_F, Throw, Put};
 	respawnWeapons[] = {SMA_ACRREMAFG, hgun_Rook40_F, Throw, Put};
 	items[] = {KSI, "LM_BERET_OFFICIER"};
@@ -581,7 +581,7 @@ class LM_BASE_JTACAO : LM_BASE_MAN
 	scope = public;
 	displayName = $STR_units_jtacao;
 	uniformClass = "VSM_AOR1_od_shirt_Camo";
-	backpack = "LM_RADIO_BASE";
+	backpack = "tfw_ilbe_coy";
 	weapons[] = {SMA_ACRREMGL, hgun_Rook40_F, Laserdesignator, Throw, Put};
 	respawnWeapons[] = {SMA_ACRREMGL, hgun_Rook40_F, Laserdesignator, Throw, Put};
 	items[] = {KSI, "LM_BERET_OFFICIER", "ACE_MapTools", "Laserbatteries", "ACE_EntrenchingTool", "ACE_microDAGR"};

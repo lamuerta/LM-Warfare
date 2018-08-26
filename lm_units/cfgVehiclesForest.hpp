@@ -407,7 +407,7 @@ class LM_FOREST_TL : LM_FOREST_MAN
 class LM_FOREST_TL_RADIO : LM_FOREST_TL
 {
 	displayName = $STR_units_teamleader_radio;
-	backpack = "LM_RADIO_FOREST";
+	backpack = "tfw_ilbe_gr";
 	weapons[] = {SMA_ACRREMAFG, hgun_Rook40_F, Laserdesignator, Throw, Put};
 	respawnWeapons[] = {SMA_ACRREMAFG, hgun_Rook40_F, Laserdesignator, Throw, Put};
 	magazines[] = {STD_mag_load, "SmokeShellRed", mag_2("SmokeShellGreen"), mag_2("SmokeShellBlue"), "SmokeShellYellow", mag_2("Laserbatteries")};
@@ -496,7 +496,7 @@ class LM_FOREST_OPERADIO : LM_FOREST_MAN
 	scope = public;
 	displayName = $STR_units_radiooperator;
 	uniformClass = "VSM_MulticamTropic_Camo";
-	backpack = "LM_RADIO_FOREST";
+	backpack = "tfw_ilbe_gr";
 	weapons[] = {SMA_ACRREMAFG, hgun_Rook40_F, Throw, Put};
 	respawnWeapons[] = {SMA_ACRREMAFG, hgun_Rook40_F, Throw, Put};
 	items[] = {KSI, "LM_BERET_OFFICIER"};
@@ -575,7 +575,7 @@ class LM_FOREST_JTACAO : LM_FOREST_MAN
 	scope = public;
 	displayName = $STR_units_jtacao;
 	uniformClass = "VSM_MulticamTropic_od_shirt_Camo";
-	backpack = "LM_RADIO_FOREST";
+	backpack = "tfw_ilbe_gr";
 	weapons[] = {SMA_ACRREMGL, hgun_Rook40_F, Laserdesignator, Throw, Put};
 	respawnWeapons[] = {SMA_ACRREMGL, hgun_Rook40_F, Laserdesignator, Throw, Put};
 	items[] = {KSI, "LM_BERET_OFFICIER", "ACE_MapTools", "Laserbatteries", "ACE_EntrenchingTool", "ACE_microDAGR"};
