@@ -160,22 +160,30 @@ class LM_WALLY_FOREST_BAG : B_Static_Designator_01_weapon_F
 
 
 // Radios LR
-class tfw_ilbe_coy;
-class LM_RADIO_BASE : tfw_ilbe_coy
-{
-	scope = 1;
-	author = "[LM] Karoucho, [LM] Cheitan";
-	faction = "LM_MUERTA";
+class TFAR_Bag_Base;
+class tfw_ilbe_wd: TFAR_Bag_Base { scope = 1; };
+class tfw_ilbe_coy: tfw_ilbe_wd {
+	scope = 2;
+	displayName = $STR_bags_radiobase;
+	hiddenSelectionsTextures[] = {"\lm_units\textures\sacs\radio\lm_altis_sacradio.paa"};
+};
+class tfw_ilbe_a_wd: TFAR_Bag_Base { scope = 1; };
+class tfw_ilbe_a_coy: tfw_ilbe_a_wd {
+	displayName = $STR_bags_radiobase;
+	hiddenSelectionsTextures[] = {"\lm_units\textures\sacs\radio\lm_altis_sacradio.paa"};
+};
+class tfw_ilbe_dd_wd: TFAR_Bag_Base { scope = 1; };
+class tfw_ilbe_dd_coy: tfw_ilbe_dd_wd {
+	displayName = $STR_bags_radiobase;
+	hiddenSelectionsTextures[] = {"\lm_units\textures\sacs\radio\lm_altis_sacradio.paa"};
+};
+class tfw_ilbe_blade_wd: TFAR_Bag_Base { scope = 1; };
+class tfw_ilbe_blade_coy: tfw_ilbe_blade_wd {
 	displayName = $STR_bags_radiobase;
 	hiddenSelectionsTextures[] = {"\lm_units\textures\sacs\radio\lm_altis_sacradio.paa"};
 };
 
+// Rétrocompatibilité
+class LM_RADIO_BASE : tfw_ilbe_coy { scope = 1; };
 class tfw_ilbe_gr;
-class LM_RADIO_FOREST : tfw_ilbe_gr
-{
-	scope = 1;
-	author = "[LM] Karoucho, [LM] Cheitan";
-	faction = "LM_MUERTA";
-	displayName = $STR_bags_radioforest;
-	//hiddenSelectionsTextures[] = {"\lm_units\textures\sacs\radio\radio_m90.paa"};
-};
+class LM_RADIO_FOREST : tfw_ilbe_gr { scope = 1; };

@@ -421,14 +421,14 @@
 			<French>Wally (Tropical)</French>
 		</Key>
 		<Key ID="STR_bags_radiobase">
-			<Original>Modulable RT-1523G (Mediterranean)</Original>
-			<English>Modulable RT-1523G (Mediterranean)</English>
-			<French>RT-1523G Modulaire (Méditerranéen)</French>
+			<Original>ILBE RT-1523G (Mediterranean)</Original>
+			<English>ILBE RT-1523G (Mediterranean)</English>
+			<French>ILBE RT-1523G (Méditerranéen)</French>
 		</Key>
 		<Key ID="STR_bags_radioforest">
-			<Original>Modulable RT-1523G (Tropic)</Original>
-			<English>Modulable RT-1523G (Tropic)</English>
-			<French>RT-1523G Modulaire (Tropical)</French>
+			<Original>ILBE RT-1523G (Tropic)</Original>
+			<English>ILBE RT-1523G (Tropic)</English>
+			<French>ILBE RT-1523G (Tropical)</French>
 		</Key>
 	</Package>
 </Project>
