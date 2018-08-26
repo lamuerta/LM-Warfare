@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Project name="LM Anti-Puncture Spray">
+	<Package name="APS">
+		<Container name="APS">
+			<Key ID="str_aps_use">
+				<Original>Use anti-puncture spray</Original>
+				<English>Use anti-puncture spray</English>
+				<French>Utiliser le spray anti-crevaison</French>
+			</Key>
+			<Key ID="str_aps_using">
+				<Original>Using anti-puncture spray...</Original>
+				<English>Using anti-puncture spray...</English>
+				<French>Utilisation du spray anti-crevaison...</French>
+			</Key>
+			<Key ID="str_aps_item">
+				<Original>Anti-puncture spray</Original>
+				<English>Anti-puncture spray</English>
+				<French>Spray anti-crevaison</French>
+			</Key>
+			<Key ID="str_aps_descShort">
+				<Original>Usefull for quickly fixing a damaged tire.</Original>
+				<English>Usefull for quickly fixing a damaged tire.</English>
+				<French>Utile pour réparer rapidement un pneu endommagé.</French>
+			</Key>
+		</Container>
+	</Package>
+</Project>
