@@ -41,13 +41,23 @@ class CfgPatches
 	};
 };
 
-class CfgFunctions
-{
-	class MobileAA
-	{
-		file = "lm_vehicules\functions";
-		class initMobileAA {};
-	};
+class CfgFunctions {
+    class LM {
+        class SLAT {
+            file = "\lm_vehicules\functions";
+            class canSLAT {};
+            class doSLAT {};
+			class addSLATactions {};
+        };
+    };
+};
+
+class Extended_InitPost_EventHandlers {
+    class Car {
+        class lm_slat {
+            init = "_this call LM_fnc_addSLATactions";
+        };
+    };
 };
 
 class CfgVehicles
@@ -1330,20 +1340,6 @@ class CfgVehicles
 			item_xx(ACE_morphine,5);
 			item_xx(ToolKit,1);
 			item_xx(adv_aceCPR_AED,1);
-		};
-	};
-	
-	// CRAM mobile, TODO
-	class B_Truck_01_mover_F;
-	class LM_AA_MOBILE : B_Truck_01_mover_F
-	{
-		scope = 1;
-		displayName = "Test AA mobile";
-		faction = "LA_MUERTA";
-		editorSubcategory = "LM_TRUCKS";
-		class EventHandlers
-		{
-			init = "(_this select 0) call LM_fnc_initMobileAA";
 		};
 	};
 	

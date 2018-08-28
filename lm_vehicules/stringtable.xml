@@ -147,4 +147,26 @@
 			<French>V-44 X Blackfish (transport de véhicules)</French>
 		</Key>
 	</Package>
+	<Package name="Actions">
+		<Key ID="STR_action_slat_hull">
+			<Original>Mount SLAT on hull</Original>
+			<English>Mount SLAT on hull</English>
+			<French>Monter SLAT sur la coque</French>
+		</Key>
+		<Key ID="STR_action_slat_turret">
+			<Original>Mount SLAT on turret</Original>
+			<English>Mount SLAT on turret</English>
+			<French>Monter SLAT sur la tourelle</French>
+		</Key>
+		<Key ID="STR_action_unslat_hull">
+			<Original>Unmount SLAT from hull</Original>
+			<English>Unmount SLAT from hull</English>
+			<French>Démonter SLAT de la coque</French>
+		</Key>
+		<Key ID="STR_action_unslat_turret">
+			<Original>Unmount SLAT from turret</Original>
+			<English>Unmount SLAT from turret</English>
+			<French>Démonter SLAT de la tourelle</French>
+		</Key>
+	</Package>
 </Project>
