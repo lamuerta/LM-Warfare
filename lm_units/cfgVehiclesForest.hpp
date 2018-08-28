@@ -318,14 +318,14 @@ class LM_FOREST_FUSILIER_AC : LM_FOREST_MAN
 	scope = public;
 	displayName = $STR_units_atrifleman;
 	uniformClass = "VSM_MulticamTropic_od_shirt_Camo";
-	weapons[] = {SMA_ACRREMAFG, hgun_Rook40_F, launch_NLAW_F, Throw, Put};
-	respawnWeapons[] = {SMA_ACRREMAFG, hgun_Rook40_F, launch_NLAW_F, Throw, Put};
+	weapons[] = {SMA_ACRREMAFG, hgun_Rook40_F, launch_MRAWS_green_F, Throw, Put};
+	respawnWeapons[] = {SMA_ACRREMAFG, hgun_Rook40_F, launch_MRAWS_green_F, Throw, Put};
 	items[] = {KSI, "LM_BERET_OFFICIER"};
 	respawnItems[] = {KSI, "LM_BERET_OFFICIER"};
 	linkedItems[] = {"VSM_LBT6094_operator_multicamTropic", "VSM_MulticamTropic_OPS_2", "ItemWatch", "tf_rf7800str"};
 	respawnLinkedItems[] = {"VSM_LBT6094_operator_multicamTropic", "VSM_MulticamTropic_OPS_2", "ItemWatch", "tf_rf7800str"};
-	magazines[] = {STD_mag_load};
-	respawnMagazines[] = {STD_mag_load};
+	magazines[] = {STD_mag_load, "MRAWS_HEAT_F"};
+	respawnMagazines[] = {STD_mag_load, "MRAWS_HEAT_F"};
 };
 
 class LM_FOREST_DEMO : LM_FOREST_MAN
