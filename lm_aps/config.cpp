@@ -31,7 +31,7 @@ class CfgSounds {
 
 class Extended_InitPost_EventHandlers {
     class Car {
-        class ADDON {
+        class lm_aps {
             init = "_this call LM_fnc_addApsActions";
         };
     };
