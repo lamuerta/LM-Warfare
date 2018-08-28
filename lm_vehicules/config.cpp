@@ -444,7 +444,8 @@ class CfgVehicles
 		{
 			"\lm_vehicules\textures\kuma\lm_altis_kuma_ext01.paa",
 			"\lm_vehicules\textures\kuma\lm_altis_kuma_ext02.paa",
-			"\lm_vehicules\textures\kuma\lm_altis_kuma_tourelle.paa"
+			"\lm_vehicules\textures\kuma\lm_altis_kuma_tourelle.paa",
+			"A3\Armor_F\Data\camonet_AAF_Digi_Desert_CO.paa"
 		};
 		typicalCargo[]={"LM_BASE_INGENIEUR", "LM_BASE_INGENIEUR", "LM_BASE_INGENIEUR"};
 		availableForSupportTypes[] = {"Drop","Transport"};
@@ -461,7 +462,8 @@ class CfgVehicles
 				{
 					"\lm_vehicules\textures\kuma\lm_altis_kuma_ext01.paa",
 					"\lm_vehicules\textures\kuma\lm_altis_kuma_ext02.paa",
-					"\lm_vehicules\textures\kuma\lm_altis_kuma_tourelle.paa"
+					"\lm_vehicules\textures\kuma\lm_altis_kuma_tourelle.paa",
+					"A3\Armor_F\Data\camonet_AAF_Digi_Desert_CO.paa"
 				};
 				factions[] = {"LA_MUERTA"};
 			};
@@ -1360,7 +1362,8 @@ class CfgVehicles
 			"\lm_vehicules\textures\marshall\lm_altis_marshall_ext01.paa",
 			"\lm_vehicules\textures\marshall\lm_altis_marshall_ext02.paa",
 			"\lm_vehicules\textures\marshall\lm_altis_marshall_tourelle.paa",
-			"\lm_vehicules\textures\marshall\lm_altis_marshall_int01.paa"
+			"a3\Armor_F\Data\camonet_NATO_Desert_CO.paa",
+			"a3\Armor_F\Data\cage_sand_CO.paa"
 		};
 		textureList[] = {"altis", 1};
 		class textureSources
@@ -1374,7 +1377,8 @@ class CfgVehicles
 					"\lm_vehicules\textures\marshall\lm_altis_marshall_ext01.paa",
 					"\lm_vehicules\textures\marshall\lm_altis_marshall_ext02.paa",
 					"\lm_vehicules\textures\marshall\lm_altis_marshall_tourelle.paa",
-					"\lm_vehicules\textures\marshall\lm_altis_marshall_int01.paa"
+					"a3\Armor_F\Data\camonet_NATO_Desert_CO.paa",
+					"a3\Armor_F\Data\cage_sand_CO.paa"
 				};
 				factions[] = {"LA_MUERTA"};
 			};
