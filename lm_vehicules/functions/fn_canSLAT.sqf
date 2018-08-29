@@ -20,7 +20,9 @@
  _return = switch (_part) do {
 	 case "hull": { (_vehicle animationSourcePhase "showSLATHull" != _mount) };
 	 case "turret": { (_vehicle animationSourcePhase "showSLATTurret" != _mount) };
-	 default { true };
+	 default { false };
  };
+
+ if(_return) exitWith { [_vehicle] call ace_repair_fnc_isNearRepairVehicle || [_vehicle] call ace_repair_fnc_isInRepairFacility };
 
  _return

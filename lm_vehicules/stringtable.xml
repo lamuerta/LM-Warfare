@@ -168,5 +168,10 @@
 			<English>Unmount SLAT from turret</English>
 			<French>Démonter SLAT de la tourelle</French>
 		</Key>
+		<Key ID="STR_slat_inprogress">
+			<Original>SLAT in progress...</Original>
+			<English>SLAT in progress...</English>
+			<French>SLAT en cours...</French>
+		</Key>
 	</Package>
 </Project>
