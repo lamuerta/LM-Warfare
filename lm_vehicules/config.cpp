@@ -1287,6 +1287,7 @@ class CfgVehicles
 			item_xx(ToolKit,5);
 			item_xx(adv_aceCPR_AED,1);
 		};
+		ace_repair_canRepair = 1;
 	};
 	
 	// Zamak fuel
