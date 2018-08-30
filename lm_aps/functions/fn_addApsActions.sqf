@@ -19,7 +19,7 @@ params ["_vehicle"];
 private _type = typeOf _vehicle;
 
 // do nothing if the class is already initialized
-private _initializedClasses = missionNamespace getVariable "lm_aps_initializedClasses";
+private _initializedClasses = missionNamespace getVariable ["lm_aps_initializedClasses", []];
 if (_type in _initializedClasses) exitWith {};
 
 // get hitpoints of wheels with their selections
