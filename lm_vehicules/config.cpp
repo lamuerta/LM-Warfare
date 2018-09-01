@@ -49,6 +49,12 @@ class CfgFunctions {
             class doSLAT {};
 			class addSLATactions {};
         };
+		class CAMO {
+            file = "\lm_vehicules\functions\CAMO";
+            class canCAMO {};
+            class doCAMO {};
+			class addCAMOactions {};
+        };
     };
 };
 
@@ -56,6 +62,14 @@ class Extended_InitPost_EventHandlers {
     class Car {
         class lm_slat {
             init = "_this call LM_fnc_addSLATactions";
+        };
+		class lm_camo {
+            init = "_this call LM_fnc_addCAMOactions";
+        };
+    };
+	class Tank {
+		class lm_camo {
+            init = "_this call LM_fnc_addCAMOactions";
         };
     };
 };

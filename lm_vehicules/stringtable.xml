@@ -147,7 +147,7 @@
 			<French>V-44 X Blackfish (transport de véhicules)</French>
 		</Key>
 	</Package>
-	<Package name="Actions">
+	<Package name="Actions SLAT">
 		<Key ID="STR_action_slat_hull">
 			<Original>Mount SLAT on hull</Original>
 			<English>Mount SLAT on hull</English>
@@ -172,6 +172,33 @@
 			<Original>SLAT in progress...</Original>
 			<English>SLAT in progress...</English>
 			<French>SLAT en cours...</French>
+		</Key>
+	</Package>
+	<Package name="Actions CAMO">
+		<Key ID="STR_action_camo_hull">
+			<Original>Mount camonet on hull</Original>
+			<English>Mount camonet on hull</English>
+			<French>Monter camo sur la coque</French>
+		</Key>
+		<Key ID="STR_action_camo_turret">
+			<Original>Mount camonet on turret</Original>
+			<English>Mount camonet on turret</English>
+			<French>Monter camo sur la tourelle</French>
+		</Key>
+		<Key ID="STR_action_uncamo_hull">
+			<Original>Unmount camonet from hull</Original>
+			<English>Unmount camonet from hull</English>
+			<French>Démonter camo de la coque</French>
+		</Key>
+		<Key ID="STR_action_uncamo_turret">
+			<Original>Unmount camonet from turret</Original>
+			<English>Unmount camonet from turret</English>
+			<French>Démonter camo de la tourelle</French>
+		</Key>
+		<Key ID="STR_camo_inprogress">
+			<Original>Camonet in progress...</Original>
+			<English>Camonet in progress...</English>
+			<French>Camo en cours...</French>
 		</Key>
 	</Package>
 </Project>
