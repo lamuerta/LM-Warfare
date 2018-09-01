@@ -23,11 +23,7 @@ private _initializedClasses = missionNamespace getVariable ["lm_slat_initialized
 if (_type in _initializedClasses) exitWith {};
 
 // whitelist of allowed hull SLAT vehicles
-_wlisthull = ["LM_MARSHALL", "B_APC_Wheeled_01_cannon_F", "B_T_APC_Wheeled_01_cannon_F", "B_AFV_Wheeled_01_cannon_F", "B_T_AFV_Wheeled_01_cannon_F", "B_AFV_Wheeled_01_up_cannon_F", "B_T_AFV_Wheeled_01_up_cannon_F"];
-if (_type in _wlisthull) then {
-	//_action = ["LM_SLAT_main", "SLAT", "", {}, {true}] call ace_interact_menu_fnc_createAction;
-	//[_type, 0, ["ACE_MainActions"], _action] call ace_interact_menu_fnc_addActionToClass;
-
+if(isClass (configFile >> "CfgVehicles" >> _type >> "AnimationSources" >> "showSLATHull")) then {
 	// An action to mount SLAT on hull is required
 	_condition = {[_this select 0, "hull", 1] call LM_fnc_canSLAT};
 	_statement = {[_this select 0, "hull", 1] call LM_fnc_doSLAT};
@@ -42,8 +38,7 @@ if (_type in _wlisthull) then {
 };
 
 // whitelist of allowed turret SLAT vehicles
-_wlistturret = ["LM_MARSHALL","B_APC_Wheeled_01_cannon_F", "B_T_APC_Wheeled_01_cannon_F"];
-if (_type in _wlistturret) then {
+if(isClass (configFile >> "CfgVehicles" >> _type >> "AnimationSources" >> "showSLATTurret")) then {
 	// An action to mount SLAT on turret is required
 	_condition = {[_this select 0, "turret", 1] call LM_fnc_canSLAT};
 	_statement = {[_this select 0, "turret", 1] call LM_fnc_doSLAT};

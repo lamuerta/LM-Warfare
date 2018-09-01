@@ -44,7 +44,7 @@ class CfgPatches
 class CfgFunctions {
     class LM {
         class SLAT {
-            file = "\lm_vehicules\functions";
+            file = "\lm_vehicules\functions\SLAT";
             class canSLAT {};
             class doSLAT {};
 			class addSLATactions {};
