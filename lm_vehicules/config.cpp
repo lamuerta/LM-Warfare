@@ -233,6 +233,7 @@ class CfgVehicles
 			item_xx(ACE_quikclot,10);
 			item_xx(ACE_morphine,5);
 			item_xx(adv_aceCPR_AED,1);
+			item_xx(RDP_Splint,10);
 		};
 	};
 	
@@ -281,6 +282,7 @@ class CfgVehicles
 			item_xx(ACE_morphine,5);
 			item_xx(ToolKit,1);
 			item_xx(adv_aceCPR_AED,1);
+			item_xx(RDP_Splint,10);
 		};
 	};
 	
@@ -330,6 +332,7 @@ class CfgVehicles
 			item_xx(ACE_morphine,5);
 			item_xx(ToolKit,1);
 			item_xx(adv_aceCPR_AED,1);
+			item_xx(RDP_Splint,10);
 		};
 	};
 	
@@ -378,6 +381,7 @@ class CfgVehicles
 			item_xx(ACE_morphine,5);
 			item_xx(ToolKit,1);
 			item_xx(adv_aceCPR_AED,1);
+			item_xx(RDP_Splint,10);
 		};
 	};
 	
@@ -446,6 +450,7 @@ class CfgVehicles
 			item_xx(ACE_morphine,5);
 			item_xx(ToolKit,1);
 			item_xx(adv_aceCPR_AED,1);
+			item_xx(RDP_Splint,10);
 		};
 	};
 	
@@ -509,6 +514,7 @@ class CfgVehicles
 			item_xx(ACE_morphine,5);
 			item_xx(ToolKit,1);
 			item_xx(adv_aceCPR_AED,1);
+			item_xx(RDP_Splint,10);
 		};
 	};
 	
@@ -541,6 +547,7 @@ class CfgVehicles
 			item_xx(ACE_morphine,5);
 			item_xx(ToolKit,1);
 			item_xx(adv_aceCPR_AED,1);
+			item_xx(RDP_Splint,10);
 		};
 	};
 	
@@ -676,6 +683,7 @@ class CfgVehicles
 			item_xx(ACE_morphine,5);
 			item_xx(ToolKit,1);
 			item_xx(adv_aceCPR_AED,1);
+			item_xx(RDP_Splint,10);
 		};
 	};
 	
@@ -728,6 +736,7 @@ class CfgVehicles
 			item_xx(ACE_morphine,5);
 			item_xx(ToolKit,1);
 			item_xx(adv_aceCPR_AED,1);
+			item_xx(RDP_Splint,10);
 		};
 	};
 	
@@ -781,6 +790,7 @@ class CfgVehicles
 			item_xx(ACE_morphine,5);
 			item_xx(ToolKit,1);
 			item_xx(adv_aceCPR_AED,1);
+			item_xx(RDP_Splint,10);
 		};
 	};
 	
@@ -897,6 +907,7 @@ class CfgVehicles
 			item_xx(ACE_morphine,5);
 			item_xx(ToolKit,1);
 			item_xx(adv_aceCPR_AED,1);
+			item_xx(RDP_Splint,10);
 		};
 	};
 	
@@ -952,6 +963,7 @@ class CfgVehicles
 			item_xx(ACE_morphine,5);
 			item_xx(ToolKit,1);
 			item_xx(adv_aceCPR_AED,1);
+			item_xx(RDP_Splint,10);
 		};
 	};
 	
@@ -988,6 +1000,24 @@ class CfgVehicles
 			};
 		};
 		class EventHandlers { };
+		class TransportWeapons {
+			weap_xx(hgun_Pistol_Signal_F,1);
+		};
+		class TransportMagazines {
+			mag_xx(SMA_30Rnd_68x43_SPC_FMJ,10);
+			mag_xx(SmokeShell,5);
+			mag_xx(SmokeShellGreen,2);
+			mag_xx(SmokeShellBlue,2);
+			mag_xx(6Rnd_RedSignal_F,1);
+			mag_xx(6Rnd_GreenSignal_F,1);
+		};
+		class TransportItems {
+			item_xx(ACE_quikclot,10);
+			item_xx(ACE_morphine,5);
+			item_xx(ToolKit,1);
+			item_xx(adv_aceCPR_AED,1);
+			item_xx(RDP_Splint,10);
+		};
 	};
 	
 	class LM_OFFROAD_M90 : B_G_Offroad_01_F
@@ -1051,6 +1081,7 @@ class CfgVehicles
 			item_xx(ACE_morphine,5);
 			item_xx(ToolKit,1);
 			item_xx(adv_aceCPR_AED,1);
+			item_xx(RDP_Splint,10);
 		};
 	};
 	
@@ -1108,6 +1139,7 @@ class CfgVehicles
 			item_xx(ACE_morphine,5);
 			item_xx(ToolKit,1);
 			item_xx(adv_aceCPR_AED,1);
+			item_xx(RDP_Splint,10);
 		};
 		class CargoTurret;
 		class Turrets: Turrets
@@ -1246,6 +1278,7 @@ class CfgVehicles
 			item_xx(ACE_EarPlugs,5);
 			item_xx(ToolKit,1);
 			item_xx(adv_aceCPR_AED,1);
+			item_xx(RDP_Splint,10);
 		};
 	};
 	
@@ -1300,6 +1333,7 @@ class CfgVehicles
 			item_xx(ACE_morphine,5);
 			item_xx(ToolKit,5);
 			item_xx(adv_aceCPR_AED,1);
+			item_xx(RDP_Splint,10);
 		};
 		ace_repair_canRepair = 1;
 	};
@@ -1355,6 +1389,7 @@ class CfgVehicles
 			item_xx(ACE_morphine,5);
 			item_xx(ToolKit,1);
 			item_xx(adv_aceCPR_AED,1);
+			item_xx(RDP_Splint,10);
 		};
 	};
 	
@@ -1410,6 +1445,7 @@ class CfgVehicles
 			item_xx(ACE_morphine,5);
 			item_xx(ToolKit,1);
 			item_xx(adv_aceCPR_AED,1);
+			item_xx(RDP_Splint,10);
 		};
 	};
 	
@@ -1465,6 +1501,7 @@ class CfgVehicles
 			item_xx(ACE_morphine,5);
 			item_xx(ToolKit,1);
 			item_xx(adv_aceCPR_AED,1);
+			item_xx(RDP_Splint,10);
 		};
 	};
 	
@@ -1519,6 +1556,7 @@ class CfgVehicles
 			item_xx(ACE_morphine,5);
 			item_xx(ToolKit,1);
 			item_xx(adv_aceCPR_AED,1);
+			item_xx(RDP_Splint,10);
 		};
 	};
 	
@@ -1578,6 +1616,7 @@ class CfgVehicles
 			item_xx(ACE_morphine,5);
 			item_xx(ToolKit,1);
 			item_xx(adv_aceCPR_AED,1);
+			item_xx(RDP_Splint,10);
 		};
 	};
 	class LM_BLACKFISH_VEHICLE : B_T_VTOL_01_VEHICLE_F
@@ -1633,6 +1672,7 @@ class CfgVehicles
 			item_xx(ACE_morphine,5);
 			item_xx(ToolKit,1);
 			item_xx(adv_aceCPR_AED,1);
+			item_xx(RDP_Splint,10);
 		};
 	};
 };
