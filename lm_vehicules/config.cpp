@@ -453,6 +453,61 @@ class CfgVehicles
 			item_xx(RDP_Splint,10);
 		};
 	};
+
+	// Huron
+	class B_Heli_Transport_03_F;
+	class LM_HURON : B_Heli_Transport_03_F
+	{
+		scope = 2;
+		side = 1;
+		faction = "LA_MUERTA";
+		editorSubcategory = "LM_HELI_HEAVY";
+		displayName = $STR_huron;
+		crew = "LM_SPECIAL_HELIPILOTE";
+		hiddenSelectionsTextures[]=
+		{
+			"\lm_vehicules\textures\huron\lm_huron_ext01.paa",
+			"\lm_vehicules\textures\huron\lm_huron_ext02.paa"
+		};
+		typicalCargo[]={"LM_SPECIAL_HELIPILOTE", "LM_SPECIAL_HELIPILOTE"};
+		availableForSupportTypes[] = {"Drop","Transport"};
+		author = "[LM] Cheitan, [LM] Karoucho";
+		forceInGarage = 1;
+		textureList[] = {"altis", 1};
+		class textureSources
+		{
+			class altis
+			{
+				displayName = "Altis";
+				author = "[LM] Karoucho";
+				textures[] =
+				{
+					"\lm_vehicules\textures\huron\lm_huron_ext01.paa",
+					"\lm_vehicules\textures\huron\lm_huron_ext02.paa"
+				};
+				factions[] = {"LA_MUERTA"};
+			};
+		};
+		class TransportWeapons {
+			weap_xx(SMA_ACRREMAFGCQB,2);
+			weap_xx(hgun_Pistol_Signal_F,1);
+		};
+		class TransportMagazines {
+			mag_xx(SMA_30Rnd_68x43_SPC_FMJ,10);
+			mag_xx(SmokeShell,5);
+			mag_xx(SmokeShellGreen,2);
+			mag_xx(SmokeShellBlue,2);
+			mag_xx(6Rnd_RedSignal_F,1);
+			mag_xx(6Rnd_GreenSignal_F,1);
+		};
+		class TransportItems {
+			item_xx(ACE_quikclot,10);
+			item_xx(ACE_morphine,5);
+			item_xx(ToolKit,1);
+			item_xx(adv_aceCPR_AED,1);
+			item_xx(RDP_Splint,10);
+		};
+	};
 	
 	
 	
@@ -551,7 +606,61 @@ class CfgVehicles
 		};
 	};
 	
-	
+	//marshall
+	class B_APC_Wheeled_01_cannon_F;
+	class LM_MARSHALL : B_APC_Wheeled_01_cannon_F
+	{
+		scope = 2;
+		side = 1;
+		faction = "LA_MUERTA";
+		editorSubcategory = "LM_BLINDES";
+		displayName = $STR_marshall;
+		crew = "LM_BASE_INGENIEUR";
+		hiddenSelectionsTextures[]=
+		{
+			"\lm_vehicules\textures\marshall\lm_altis_marshall_ext01.paa",
+			"\lm_vehicules\textures\marshall\lm_altis_marshall_ext02.paa",
+			"\lm_vehicules\textures\marshall\lm_altis_marshall_tourelle.paa",
+			"a3\Armor_F\Data\camonet_NATO_Desert_CO.paa",
+			"a3\Armor_F\Data\cage_sand_CO.paa"
+		};
+		textureList[] = {"altis", 1};
+		class textureSources
+		{
+			class altis
+			{
+				displayName = "Altis";
+				author = "[LM] Karoucho";
+				textures[] =
+				{
+					"\lm_vehicules\textures\marshall\lm_altis_marshall_ext01.paa",
+					"\lm_vehicules\textures\marshall\lm_altis_marshall_ext02.paa",
+					"\lm_vehicules\textures\marshall\lm_altis_marshall_tourelle.paa",
+					"a3\Armor_F\Data\camonet_NATO_Desert_CO.paa",
+					"a3\Armor_F\Data\cage_sand_CO.paa"
+				};
+				factions[] = {"LA_MUERTA"};
+			};
+		};
+		class TransportWeapons {
+			weap_xx(hgun_Pistol_Signal_F,1);
+		};
+		class TransportMagazines {
+			mag_xx(SMA_30Rnd_68x43_SPC_FMJ,10);
+			mag_xx(SmokeShell,5);
+			mag_xx(SmokeShellGreen,2);
+			mag_xx(SmokeShellBlue,2);
+			mag_xx(6Rnd_RedSignal_F,1);
+			mag_xx(6Rnd_GreenSignal_F,1);
+		};
+		class TransportItems {
+			item_xx(ACE_quikclot,10);
+			item_xx(ACE_morphine,5);
+			item_xx(ToolKit,1);
+			item_xx(adv_aceCPR_AED,1);
+			item_xx(RDP_Splint,10);
+		};
+	};
 	
 	
 	
@@ -1393,63 +1502,6 @@ class CfgVehicles
 		};
 	};
 	
-	//marshall
-	class B_APC_Wheeled_01_cannon_F;
-	class LM_MARSHALL : B_APC_Wheeled_01_cannon_F
-	{
-		scope = 2;
-		side = 1;
-		faction = "LA_MUERTA";
-		editorSubcategory = "LM_BLINDES";
-		displayName = $STR_marshall;
-		crew = "LM_BASE_INGENIEUR";
-		hiddenSelectionsTextures[]=
-		{
-			"\lm_vehicules\textures\marshall\lm_altis_marshall_ext01.paa",
-			"\lm_vehicules\textures\marshall\lm_altis_marshall_ext02.paa",
-			"\lm_vehicules\textures\marshall\lm_altis_marshall_tourelle.paa",
-			"a3\Armor_F\Data\camonet_NATO_Desert_CO.paa",
-			"a3\Armor_F\Data\cage_sand_CO.paa"
-		};
-		textureList[] = {"altis", 1};
-		class textureSources
-		{
-			class altis
-			{
-				displayName = "Altis";
-				author = "[LM] Karoucho";
-				textures[] =
-				{
-					"\lm_vehicules\textures\marshall\lm_altis_marshall_ext01.paa",
-					"\lm_vehicules\textures\marshall\lm_altis_marshall_ext02.paa",
-					"\lm_vehicules\textures\marshall\lm_altis_marshall_tourelle.paa",
-					"a3\Armor_F\Data\camonet_NATO_Desert_CO.paa",
-					"a3\Armor_F\Data\cage_sand_CO.paa"
-				};
-				factions[] = {"LA_MUERTA"};
-			};
-		};
-		class TransportWeapons {
-			weap_xx(hgun_Pistol_Signal_F,1);
-		};
-		class TransportMagazines {
-			mag_xx(SMA_30Rnd_68x43_SPC_FMJ,10);
-			mag_xx(SmokeShell,5);
-			mag_xx(SmokeShellGreen,2);
-			mag_xx(SmokeShellBlue,2);
-			mag_xx(6Rnd_RedSignal_F,1);
-			mag_xx(6Rnd_GreenSignal_F,1);
-		};
-		class TransportItems {
-			item_xx(ACE_quikclot,10);
-			item_xx(ACE_morphine,5);
-			item_xx(ToolKit,1);
-			item_xx(adv_aceCPR_AED,1);
-			item_xx(RDP_Splint,10);
-		};
-	};
-	
-	
 	// Jeep Wrangler
 	class C_Offroad_02_unarmed_F;
 	class LM_WRANGLER : C_Offroad_02_unarmed_F
@@ -1486,61 +1538,6 @@ class CfgVehicles
 			};
 		};
 		class TransportWeapons {
-			weap_xx(hgun_Pistol_Signal_F,1);
-		};
-		class TransportMagazines {
-			mag_xx(SMA_30Rnd_68x43_SPC_FMJ,10);
-			mag_xx(SmokeShell,5);
-			mag_xx(SmokeShellGreen,2);
-			mag_xx(SmokeShellBlue,2);
-			mag_xx(6Rnd_RedSignal_F,1);
-			mag_xx(6Rnd_GreenSignal_F,1);
-		};
-		class TransportItems {
-			item_xx(ACE_quikclot,10);
-			item_xx(ACE_morphine,5);
-			item_xx(ToolKit,1);
-			item_xx(adv_aceCPR_AED,1);
-			item_xx(RDP_Splint,10);
-		};
-	};
-	
-	// Huron
-	class B_Heli_Transport_03_F;
-	class LM_HURON : B_Heli_Transport_03_F
-	{
-		scope = 2;
-		side = 1;
-		faction = "LA_MUERTA";
-		editorSubcategory = "LM_HELI_HEAVY";
-		displayName = $STR_huron;
-		crew = "LM_SPECIAL_HELIPILOTE";
-		hiddenSelectionsTextures[]=
-		{
-			"\lm_vehicules\textures\huron\lm_huron_ext01.paa",
-			"\lm_vehicules\textures\huron\lm_huron_ext02.paa"
-		};
-		typicalCargo[]={"LM_SPECIAL_HELIPILOTE", "LM_SPECIAL_HELIPILOTE"};
-		availableForSupportTypes[] = {"Drop","Transport"};
-		author = "[LM] Cheitan, [LM] Karoucho";
-		forceInGarage = 1;
-		textureList[] = {"altis", 1};
-		class textureSources
-		{
-			class altis
-			{
-				displayName = "Altis";
-				author = "[LM] Karoucho";
-				textures[] =
-				{
-					"\lm_vehicules\textures\huron\lm_huron_ext01.paa",
-					"\lm_vehicules\textures\huron\lm_huron_ext02.paa"
-				};
-				factions[] = {"LA_MUERTA"};
-			};
-		};
-		class TransportWeapons {
-			weap_xx(SMA_ACRREMAFGCQB,2);
 			weap_xx(hgun_Pistol_Signal_F,1);
 		};
 		class TransportMagazines {
@@ -1675,4 +1672,21 @@ class CfgVehicles
 			item_xx(RDP_Splint,10);
 		};
 	};
+
+
+
+
+
+	// Conteneurs Huron
+	class B_Slingload_01_Cargo_F;
+	class B_Slingload_01_Fuel_F;
+	class B_Slingload_01_Ammo_F;
+	class B_Slingload_01_Repair_F;
+	class B_Slingload_01_Medevac_F;
+	class LM_SLINGLOAD_CARGO : B_Slingload_01_Cargo_F { editorSubcategory = "LM_HELI_HEAVY"; };
+	class LM_SLINGLOAD_FUEL : B_Slingload_01_Fuel_F { editorSubcategory = "LM_HELI_HEAVY"; };
+	class LM_SLINGLOAD_AMMO : B_Slingload_01_Ammo_F { editorSubcategory = "LM_HELI_HEAVY"; };
+	class LM_SLINGLOAD_REPAIR : B_Slingload_01_Repair_F { editorSubcategory = "LM_HELI_HEAVY"; };
+	class LM_SLINGLOAD_MEDIC : B_Slingload_01_Medevac_F { editorSubcategory = "LM_HELI_HEAVY"; };
+
 };
